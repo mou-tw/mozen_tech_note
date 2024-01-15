@@ -16,3 +16,10 @@ $ ps -eo user,pid,ruid,euid,cmd
 ![[Pasted image 20240115191605.png]]
 RUID: run程式身分的uid，root為0
 EUID(effective UID): 真正提供權限的UID
+
+
+查看系統中有多少具有SETUID功能
+```
+$ sudo find / -user root -perm -4000 2>/dev/null | grep -E '^/bin|^/usr/bin'
+```
+
