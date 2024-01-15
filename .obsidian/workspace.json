@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "container_concept/Container Principle.md",
+                "file": "linux_note/Linux Note Unorganized.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "container_concept/Container Principle.md",
+                "file": "linux_note/Linux Note Unorganized.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "container_concept/Container Principle.md",
+                "file": "linux_note/Linux Note Unorganized.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "container_concept/Container Principle.md"
+                "file": "linux_note/Linux Note Unorganized.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "1e407b62162bbeec",
   "lastOpenFiles": [
-    "linux_note/Linux Process.md",
-    "container_concept/Container Principle.md",
-    "linux_note/Linux Note Unorganized.md",
     "linux_note/pics/Pasted image 20240115184607.png",
+    "linux_note/Linux Note Unorganized.md",
+    "linux_note/pics/Pasted image 20240115191605.png",
+    "container_note/Container Principle.md",
+    "linux_note/Linux Process.md",
     "linux_note/pics",
     "linux_note",
-    "container_concept/pic",
-    "container_concept"
+    "container_note/pics",
+    "container_note"
   ]
 }
