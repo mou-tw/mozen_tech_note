@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1e407b62162bbeec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unorganized.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "container_concept/test.md",
+                "file": "Unorganized.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "container_concept/test.md",
+                "file": "Unorganized.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "container_concept/test.md"
+                "file": "Unorganized.md"
               }
             }
           }
@@ -146,10 +159,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c76a53f3109b7f80",
+  "active": "1e407b62162bbeec",
   "lastOpenFiles": [
-    "container_concept/pic",
     "container_concept/test.md",
+    "Unorganized.md",
+    "linux_note",
+    "container_concept/pic",
     "container_concept"
   ]
 }
