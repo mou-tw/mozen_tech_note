@@ -1,0 +1,3 @@
+## prerequisite
+[[Linux Note Unorganized]]
+

@@ -14,3 +14,5 @@ $ echo $SHELL
 $ ps -eo user,pid,ruid,euid,cmd
 ```
 ![[Pasted image 20240115184607.png]]
+RUID: run程式身分的uid，root為0
+EUID(effective UID): 真正提供權限的UID
