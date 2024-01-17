@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "85b95db3dc1b77ea",
+        "id": "1a2ce8e68f7c9f98",
         "type": "tabs",
         "children": [
           {
-            "id": "1e407b62162bbeec",
+            "id": "f466f26c6d178270",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/chmod.md",
+                "file": "container_note/Container Principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/chmod.md",
+                "file": "container_note/Container Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/chmod.md",
+                "file": "container_note/Container Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/chmod.md"
+                "file": "container_note/Container Principle.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,15 +147,16 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "1e407b62162bbeec",
+  "active": "f466f26c6d178270",
   "lastOpenFiles": [
-    "linux_note/Linux Process.md",
-    "linux_note/Linux Note Unorganized.md",
-    "linux_note/chmod.md",
-    "Pasted image 20240115192150.png",
-    "linux_note/pics/Pasted image 20240115184607.png",
-    "linux_note/pics/Pasted image 20240115191605.png",
+    "linux_note/functional CLI.md",
     "container_note/Container Principle.md",
+    "linux_note/Linux Process.md",
+    "linux_note/pics/Pasted image 20240115191605.png",
+    "linux_note/Linux Note Unorganized.md",
+    "Pasted image 20240115192150.png",
+    "linux_note/chmod.md",
+    "linux_note/pics/Pasted image 20240115184607.png",
     "linux_note/pics",
     "linux_note",
     "container_note/pics",
