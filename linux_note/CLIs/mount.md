@@ -48,7 +48,7 @@ $ cat merged/in_lower2.txt
 lower2
 $ cat merged/in_both.txt
 upper_both
-[]bigred@alp:~/overlay2$ cat merged/in_upper.txt
+$ cat merged/in_upper.txt
 upper
-[]bigred@alp:~/overlay2$
+
 ```
