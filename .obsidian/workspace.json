@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1a2ce8e68f7c9f98",
+        "id": "85b95db3dc1b77ea",
         "type": "tabs",
         "children": [
           {
-            "id": "f466f26c6d178270",
+            "id": "1e407b62162bbeec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -129,8 +129,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,26 +138,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:開啟快速切換": false,
-      "graph:查看關聯圖": false,
-      "canvas:建立新畫布": false,
-      "daily-notes:開啟今天的每日筆記": false,
-      "templates:插入模板": false,
-      "command-palette:開啟命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "f466f26c6d178270",
+  "active": "1e407b62162bbeec",
   "lastOpenFiles": [
-    "linux_note/chroot.md",
-    "linux_note/build self rootfs.md",
-    "container_note/Container Principle.md",
     "linux_note/chmod.md",
     "linux_note/functional CLI.md",
+    "linux_note/chroot.md",
+    "linux_note/build self rootfs.md",
     "linux_note/Linux Process.md",
-    "linux_note/pics/Pasted image 20240115191605.png",
     "linux_note/Linux Note Unorganized.md",
     "Pasted image 20240115192150.png",
     "linux_note/pics/Pasted image 20240115184607.png",
+    "linux_note/pics/Pasted image 20240115191605.png",
+    "container_note/Container Principle.md",
     "linux_note/pics",
     "linux_note",
     "container_note/pics",
