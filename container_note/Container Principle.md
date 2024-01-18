@@ -20,3 +20,12 @@
 因為container的process共用hostOS的kernal，避免container把kernal損毀
 一旦kernal損毀，其他container由於本質是process，也會一起損毀
 需要使用seccomp和capability一同使用保護kernal
+
+
+
+### Docker FileSystem
+容器化技術在filesystem上使用了一種叫做聯合檔案系統(Union Filesystem)
+Linux中的UnionFS本身也有很多種類型
+docker 早期使用AUFS，在新版本之後使用overlay2
+查詢當前的docker 所使用的FS，可使用docker info查詢
+
