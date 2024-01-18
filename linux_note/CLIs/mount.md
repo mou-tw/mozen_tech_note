@@ -34,5 +34,21 @@ $ tree
 │   ├── in_both.txt
 │   └── in_upper.txt
 └── work
-
+#work是overlay所需要的dir
+#merged是對外union的dir
+#創建名稱為myov 的overlayFS
+$ sudo mount -t overlay myov -o lowerdir=lower1:lower2,upperdir=upper,workdir=work merged
+$ mount
+myov on /home/bigred/overlay2/merged type overlay (rw,relatime,lowerdir=lower1:lower2,upperdir=upper,workdir=work,uuid=on)
+$ cat merged/in_both.txt
+upper_both
+$ cat merged/in_lower1.txt
+lower1
+$ cat merged/in_lower2.txt
+lower2
+$ cat merged/in_both.txt
+upper_both
+[]bigred@alp:~/overlay2$ cat merged/in_upper.txt
+upper
+[]bigred@alp:~/overlay2$
 ```
