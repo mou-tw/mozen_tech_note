@@ -8,8 +8,12 @@ $ mkdir -p {a,b}
 $ sudo mount --bind a b
 #此時輸入mount語法可查看多了一個ext4的紀錄在b folder
 #在a folder此時新增一個資料夾
-$ mkdir a/aa; ls 
-
+$ mkdir a/aa; ls a
+#查看b foler是否有出現aa
+$ ls b
+#取消mount
+$ sudo umount b
+# a/aa 仍存在，而b/aa消失
 ```
 
 

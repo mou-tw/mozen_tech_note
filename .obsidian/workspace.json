@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/CLIs/mount.md",
+                "file": "linux_note/overlay2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/CLIs/mount.md",
+                "file": "linux_note/overlay2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/CLIs/mount.md",
+                "file": "linux_note/overlay2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/CLIs/mount.md"
+                "file": "linux_note/overlay2.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "1e407b62162bbeec",
   "lastOpenFiles": [
-    "linux_note/build self rootfs.md",
     "linux_note/CLIs/mount.md",
+    "linux_note/overlay2.md",
+    "container_note/Container Principle.md",
+    "linux_note/build self rootfs.md",
     "linux_note/CLIs",
     "linux_note/chmod.md",
     "linux_note/functional CLI.md",
@@ -159,7 +161,6 @@
     "Pasted image 20240115192150.png",
     "linux_note/pics/Pasted image 20240115184607.png",
     "linux_note/pics/Pasted image 20240115191605.png",
-    "container_note/Container Principle.md",
     "linux_note/pics",
     "linux_note",
     "container_note/pics",
