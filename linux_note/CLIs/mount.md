@@ -35,6 +35,4 @@ $ tree
 │   └── in_upper.txt
 └── work
 
-
-
 ```
