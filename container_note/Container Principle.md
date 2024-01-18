@@ -17,4 +17,6 @@
 5. Overlay2 - 用來建立 Container 的檔案系統層
 
 
-
+因為container的process共用hostOS的kernal，避免container把kernal損毀
+一旦kernal損毀，其他container由於本質是process，也會一起損毀
+需要使用seccomp和capability一同使用保護kernal

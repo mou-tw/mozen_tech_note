@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "container_note/Container Principle.md",
+                "file": "linux_note/build self rootfs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "container_note/Container Principle.md",
+                "file": "linux_note/build self rootfs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "container_note/Container Principle.md",
+                "file": "linux_note/build self rootfs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "container_note/Container Principle.md"
+                "file": "linux_note/build self rootfs.md"
               }
             }
           }
@@ -149,13 +149,15 @@
   },
   "active": "f466f26c6d178270",
   "lastOpenFiles": [
-    "linux_note/functional CLI.md",
+    "linux_note/chroot.md",
+    "linux_note/build self rootfs.md",
     "container_note/Container Principle.md",
+    "linux_note/chmod.md",
+    "linux_note/functional CLI.md",
     "linux_note/Linux Process.md",
     "linux_note/pics/Pasted image 20240115191605.png",
     "linux_note/Linux Note Unorganized.md",
     "Pasted image 20240115192150.png",
-    "linux_note/chmod.md",
     "linux_note/pics/Pasted image 20240115184607.png",
     "linux_note/pics",
     "linux_note",
