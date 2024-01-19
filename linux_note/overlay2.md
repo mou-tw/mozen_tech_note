@@ -16,3 +16,5 @@ merge是對外服務用的dir
 
 ![[Pasted image 20240118231137.png]]
 
+create overlay2 by mount CLI
+[[mount#create overlay2 mount]]

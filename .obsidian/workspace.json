@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/build self rootfs.md",
+                "file": "linux_note/CLIs/mount.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/build self rootfs.md",
+                "file": "linux_note/CLIs/mount.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/build self rootfs.md",
+                "file": "linux_note/CLIs/mount.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/build self rootfs.md"
+                "file": "linux_note/CLIs/mount.md"
               }
             }
           }
@@ -147,15 +147,15 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "67e3575069289abf",
+  "active": "f466f26c6d178270",
   "lastOpenFiles": [
     "linux_note/overlay2.md",
+    "container_note/Container Principle.md",
+    "linux_note/build self rootfs.md",
+    "linux_note/pics/Pasted image 20240118231137.png",
     "linux_note/CLIs/mount.md",
     "linux_note/CLIs",
-    "Pasted image 20240118231137.png",
     "linux_note/chroot.md",
-    "linux_note/build self rootfs.md",
-    "container_note/Container Principle.md",
     "linux_note/chmod.md",
     "linux_note/functional CLI.md",
     "linux_note/Linux Process.md",
