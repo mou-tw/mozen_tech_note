@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "container_note/Container Principle.md",
+                "file": "linux_note/overlay2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebb22f73669174dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux_note/CLIs/mount.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "container_note/Container Principle.md",
+                "file": "linux_note/CLIs/mount.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "container_note/Container Principle.md",
+                "file": "linux_note/CLIs/mount.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "container_note/Container Principle.md"
+                "file": "linux_note/CLIs/mount.md"
               }
             }
           }
@@ -147,17 +160,17 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "f466f26c6d178270",
+  "active": "ebb22f73669174dc",
   "lastOpenFiles": [
+    "linux_note/overlay2.md",
+    "linux_note/Linux Process.md",
+    "container_note/Container Principle.md",
     "linux_note/Linux Note Unorganized.md",
     "linux_note/functional CLI.md",
     "linux_note/chroot.md",
     "linux_note/chmod.md",
     "linux_note/build self rootfs.md",
-    "linux_note/overlay2.md",
-    "linux_note/Linux Process.md",
     "linux_note/CLIs/mount.md",
-    "container_note/Container Principle.md",
     "linux_note/pics/Pasted image 20240118231137.png",
     "linux_note/CLIs",
     "linux_note/pics/Pasted image 20240115191605.png",
