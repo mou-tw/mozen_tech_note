@@ -8,3 +8,8 @@ cgroup 的controller範圍很廣，從cpu, memory到部分的硬體周邊
 
 
 
+查看linux 的cgroup版本
+```
+$ stat -fc %T /sys/fs/cgroup/
+```
+
