@@ -5,27 +5,15 @@ cgroup本身是針對process的資源限制，而非用戶
 
 cgroup 的controller範圍很廣，從cpu, memory到部分的硬體周邊
 >cpuset-設定使用哪幾個cpu core
->cpu - 設定cpu share,數值越高能用cpu的時間越多
+>cpu - 設定cpu share,數值越高能用cpu的比例越多
 >memory- 使用的memory量
->cgroups子系统：
-
-1.blkio 限制每个块设备的输入输出控制。例如:磁盘,光盘以及usb。
-2.cpu 限制使用cpu比例
-3.cpuacct 产生cgroup任务的cpu资源报告。
-4.cpuset 多核心的cpu时为cgroup任务分配单独的cpu和内存 绑定进程和cpu减少上下文切换 内存访问情况 就近访问内存
-5.devices 允许或拒绝对设备的访问。
-6.freezer 暂停和恢复cgroup任务。
-7.memory 设置内存限制以及产生内存资源报告。
-8.net_cls 可以标记 cgroups 中进程的网络数据包，然后可以使用 tc 模块（traffic control）对数据包进行控制。
-9.net_prio — 这个子系统用来设计网络流量的优先级。
-
-10.ns 可以使不同 cgroups 下面的进程使用不同的 namespace。
-
-11.hugetlb — 这个子系统主要针对于HugeTLB系统进行限制，这是一个大页文件系统。
-
-
-
-
+>bikio - 限制如磁碟或usb的輸入輸出控制
+>devices - 允許或拒絕對設備的訪問
+>freezer- 暫停和恢復cgroup任務
+>net_cls- 標記cgroup中process的網路封包，可以再透過tc(traffic control)模塊對數據包進行控制
+>net_prio- 設計網路流量的優先程度
+>ns - 使不同cgroup的process使用不同的namespace
+>hugetlb- 針對hugerTLB系統進行限制
 
 查看linux 的cgroup版本
 ```
