@@ -4,5 +4,7 @@ cgroup 是Linux kernal中的功能，用以限制、記錄並且隔離host機器
 cgroup 的controller範圍很廣，從cpu, memory到部分的硬體周邊
 >cpuset-設定使用哪幾個cpu core
 >cpu - 設定cpu share,數值越高能用cpu的時間越多
->memory- 
+>memory- 使用的memory量
+
+
 
