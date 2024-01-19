@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/CLIs/mount.md",
+                "file": "linux_note/CGroup (linux control group).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/CLIs/mount.md",
+                "file": "linux_note/CGroup (linux control group).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/CLIs/mount.md",
+                "file": "linux_note/CGroup (linux control group).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/CLIs/mount.md"
+                "file": "linux_note/CGroup (linux control group).md"
               }
             }
           }
@@ -162,6 +162,8 @@
   },
   "active": "ebb22f73669174dc",
   "lastOpenFiles": [
+    "linux_note/CLIs/mount.md",
+    "linux_note/CGroup (linux control group).md",
     "linux_note/overlay2.md",
     "linux_note/Linux Process.md",
     "container_note/Container Principle.md",
@@ -170,7 +172,6 @@
     "linux_note/chroot.md",
     "linux_note/chmod.md",
     "linux_note/build self rootfs.md",
-    "linux_note/CLIs/mount.md",
     "linux_note/pics/Pasted image 20240118231137.png",
     "linux_note/CLIs",
     "linux_note/pics/Pasted image 20240115191605.png",
