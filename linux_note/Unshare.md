@@ -9,12 +9,17 @@ setns把某个进程放在已有的某个namespace里。
 
 
 
-
-
+查看當前user process的namespace訊息
+```
+$ ls -al /proc/self/ns
+```
 
 
 隔離UTS, hostname
 ```
-$ 
+$ sudo unshare --uts sh 
+再查看當前的namespace狀態
+$ ls -al /proc/self/ns
+會發現uts的namespace不一樣了
 ```
 

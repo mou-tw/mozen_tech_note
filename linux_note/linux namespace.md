@@ -21,7 +21,7 @@ kernel version 5.6, there are 8 kinds of namespaces
 
 查看process相關的namespace訊息
 ```
-$ 
+$ ls -l /proc/<any pid / self>/ns
 ```
 
 
