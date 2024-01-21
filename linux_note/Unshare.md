@@ -40,6 +40,18 @@ $ echo $$
 #ps仍會取到host機器的資訊
 #因為ps命令讀取的仍是alp的 /proc目錄
 $ mount proc /proc -t proc
+$ ps 
+會發現已看不到原本的process，/proc中的process也發生改變
+#取消mount
+$ umount /proc
+$ exit
+
+## 完整語法
+#--mount-proc 這參數, 會將 sh 的 PID Namespace, 掛載到 ALP 的 /proc 目錄
+$ sudo unshare --pid --fork --mount-proc sh 
+$ sleep 10 $
+$ pstree -p
+# /proc用下列語法查看，得知被
 
 ```
 
