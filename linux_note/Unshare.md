@@ -21,5 +21,17 @@ $ sudo unshare --uts sh
 再查看當前的namespace狀態
 $ ls -al /proc/self/ns
 會發現uts的namespace不一樣了
+
+#嘗試修改hostname
+$ hostname <name>
+$ hostname
+$ exit 
+
+#測試是否真的有隔離效果
+$ hostname
 ```
 
+隔離PID
+```
+$ sudo unshare --pid --fork sh 
+```
