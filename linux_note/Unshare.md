@@ -38,7 +38,8 @@ $ echo $$
 1
 
 #ps仍會取到host機器的資訊
-#因為
+#因為ps命令讀取的仍是alp的 /proc目錄
+$ mount proc /proc -t proc
 
 ```
 
