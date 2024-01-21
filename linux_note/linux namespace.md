@@ -1,3 +1,5 @@
+linux每個process都與namespace關聯，且僅能看到與這個namespace相關的resources
+
 kernel version 5.6, there are 8 kinds of namespaces
 - Mount (mnt)
 - Process ID (pid)
@@ -21,6 +23,9 @@ kernel version 5.6, there are 8 kinds of namespaces
 
 查看process相關的namespace訊息
 ```
+# 查看當前user scope的namespace
+$ lsns 
+$ sudo lsns
 $ ls -l /proc/<any pid / self>/ns
 ```
 
