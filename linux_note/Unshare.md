@@ -8,6 +8,11 @@ unshare为已有进程创建新的namespace。
 setns把某个进程放在已有的某个namespace里。
 
 
+
+
+
+
+
 隔離UTS, hostname
 ```
 $ 

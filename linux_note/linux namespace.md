@@ -19,6 +19,14 @@ kernel version 5.6, there are 8 kinds of namespaces
 |user | 隔離用戶|
 
 
+查看process相關的namespace訊息
+```
+$ 
+```
+
+
+
+
 [ref](https://www.jianshu.com/p/ab423c3db59d)
 [ref](https://moelove.info/2021/12/10/%E6%90%9E%E6%87%82%E5%AE%B9%E5%99%A8%E6%8A%80%E6%9C%AF%E7%9A%84%E5%9F%BA%E7%9F%B3-namespace-%E4%B8%8A/#contents:cgroup-namespaces)
 
