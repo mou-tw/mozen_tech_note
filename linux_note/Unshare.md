@@ -112,11 +112,16 @@ $ ps aux | grep <pid>
 #### fake root
 ```
 $ unshare --user -r bash
-
+$ echo $$
+在default namespace中查詢該pid
+$ ps aux | grep <pid>
+會發現實際的user仍是執行的user名稱
 ```
 
+![[Pasted image 20240122170339.png]]
 
-
+可以新增當前dir的資料
+但沒有辦法對root path 新建資料
 
 
 
