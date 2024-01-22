@@ -92,14 +92,21 @@ $ ip a
 ### 隔離user
 User namespaces isolate security-related identifiers and attributes, in particular, user IDs and group IDs, the root directory, keys, and capabilities. A process’s user and group IDs can be different inside and outside a user namespace. In particular, a process can have a normal unprivileged user ID outside a user namespace while at the same time having a user ID of 0 inside the namespace.(fakeroot)
 
-沒使用 sudo 執行 unshare 命令, 必需要有 --user 參數才可執行，unshare 命令內定使用者為 nobody (id:65534), 執行 unshare 命令, 則是執行user的帳號
+沒使用 sudo 執行 unshare 命令, 必需要有 --user 參數才可執行，unshare 命令內定使用者為 nobody (id:65534), 執行 unshare 命令, 則是透過user 帳號
 
 ```
 $ unshare --user bash
+$ id 
 ```
+![[Pasted image 20240122165250.png]]
 
-
-
+```
+找出namespace中的pid
+$ echo $$
+在default namespace中查詢該pid
+$ ps aux | grep <pid>
+會發現實際的user仍是執行的user名稱
+```
 
 
 
