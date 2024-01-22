@@ -31,7 +31,7 @@ $ exit
 $ hostname
 ```
 
-隔離PID
+### 隔離PID
 ```
 $ sudo unshare --pid --fork sh 
 $ echo $$
@@ -64,7 +64,7 @@ proc 還有另一個功能，我們利用它實現 Linux 核心空間與使用�
 
 
 
-隔離IP
+### 隔離IP
 ```
 $ sudo unshare --net sh 
 $ ip a
