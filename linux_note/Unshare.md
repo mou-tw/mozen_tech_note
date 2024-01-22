@@ -109,6 +109,11 @@ $ ps aux | grep <pid>
 ```
 
 
+#### fake root
+```
+$ unshare --user -r bash
+
+```
 
 
 
