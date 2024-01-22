@@ -73,6 +73,30 @@ $ ip a
 
 實作兩個namespace之間的通訊
 
+| 順序 | terminal1 | terminal2 |
+| :--- | ---- | ---- |
+| 1 | sudo unshare --pid --fork --mount-proc --net --uts sh |  |
+| 2 |  |  sudo lsns -t net |
+| 3 |  | sudo ip link |
+| 4 |  |  |
+| 5 |  |  |
+| 6 |  |  |
+| 7 |  |  |
+| 8 |  |  |
+| 9 |  |  |
+| 10 |  |  |
+
+
+
+
+| 順序 | terminal1 | terminal2 |
+| :--- | ---: | |
+| IPC | 隔離 System V IPC 和 POSIX 消息隊列 | |
+| network | 隔離網路 | |
+| mount | 隔離掛載點 | |
+| PID | 隔離PID | |
+| UTS | 隔離主機和域名 | |
+| user | 隔離用戶 | |
 
 
 
