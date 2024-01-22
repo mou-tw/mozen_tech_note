@@ -15,7 +15,7 @@ $ ls -al /proc/self/ns
 ```
 
 
-隔離UTS, hostname
+### 隔離UTS, hostname
 ```
 $ sudo unshare --uts sh 
 再查看當前的namespace狀態
@@ -71,6 +71,7 @@ $ ip a
 發現少了一張網路卡
 ```
 
+實作兩個namespace之間的通訊
 
 
 
