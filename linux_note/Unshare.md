@@ -78,29 +78,18 @@ $ ip a
 | 1 | sudo unshare --pid --fork --mount-proc --net --uts sh |  |
 | 2 |  |  sudo lsns -t net |
 | 3 |  | sudo ip link |
-| 4 |  |  |
-| 5 |  |  |
-| 6 |  |  |
-| 7 |  |  |
-| 8 |  |  |
-| 9 |  |  |
-| 10 |  |  |
+| 4 |  | sudo ip link add ve1 netns 1 type veth peer name ve2 netns <net 2 pid> |
+| 5 |  | sudo ip link set ve1 up |
+| 6 |  | sudo ip addr add 192.168.168.100/24 dev ve1 |
+| 7 | ip link |  |
+| 8 | link set ve2 up |  |
+| 9 | ip addr add 192.168.168.168/24 dev ve2 |  |
+| 10 | ping 192.168.168.100 |  |
+| 11 | exit |  |
+離開namespace之後，再看一次ip addr 會發現veth已經消失
 
 
-
-
-| 順序 | terminal1 | terminal2 |
-| :--- | ---: | |
-| IPC | 隔離 System V IPC 和 POSIX 消息隊列 | |
-| network | 隔離網路 | |
-| mount | 隔離掛載點 | |
-| PID | 隔離PID | |
-| UTS | 隔離主機和域名 | |
-| user | 隔離用戶 | |
-
-
-
-
+### 隔離
 
 
 
