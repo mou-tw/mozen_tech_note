@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "container_note/Install Docker.md",
+                "file": "container_note/Docker architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "container_note/Install Docker.md",
+                "file": "container_note/Docker architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "container_note/Install Docker.md",
+                "file": "container_note/Docker architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "container_note/Install Docker.md"
+                "file": "container_note/Docker architecture.md"
               }
             }
           }
@@ -186,12 +186,15 @@
   },
   "active": "175f2f4ddfeb00b0",
   "lastOpenFiles": [
-    "container_note/Container Principle.md",
-    "container_note/Install Docker.md",
-    "linux_note/functional CLI.md",
-    "docker architecture.md",
-    "Pasted image 20240124161314.png",
+    "container_note/Pics",
+    "container_note/Pics/Pasted image 20240124161314.png",
     "network concept.md",
+    "linux_note/CGroup (linux control group).md",
+    "linux_note/chmod.md",
+    "container_note/Install Docker.md",
+    "container_note/Container Principle.md",
+    "linux_note/functional CLI.md",
+    "container_note/Docker architecture.md",
     "Pasted image 20240124161345.png",
     "linux_note/Linux Process.md",
     "linux_note/Unix-like OS.md",
@@ -200,12 +203,10 @@
     "linux_note/Linux namespace.md",
     "linux_note/Build self rootfs.md",
     "linux_note/chroot.md",
-    "linux_note/chmod.md",
     "linux_note/Linux Note Unorganized.md",
     "linux_note/Unshare.md",
     "linux_note/Pics/Pasted image 20240122170339.png",
     "linux_note/Pics/Pasted image 20240122165250.png",
-    "linux_note/CGroup (linux control group).md",
     "linux_note/CLIs/mount.md",
     "linux_note/Pics/Pasted image 20240118231137.png",
     "linux_note/CLIs",
