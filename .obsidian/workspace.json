@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c788f4976b19ed06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "network concept.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "container_note/Install Docker.md",
+                "file": "network concept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "container_note/Install Docker.md",
+                "file": "network concept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "container_note/Install Docker.md"
+                "file": "network concept.md"
               }
             }
           }
@@ -160,10 +172,12 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "ebb22f73669174dc",
+  "active": "c788f4976b19ed06",
   "lastOpenFiles": [
-    "linux_note/Unix-like OS.md",
     "container_note/Install Docker.md",
+    "network concept.md",
+    "network_note",
+    "linux_note/Unix-like OS.md",
     "linux_note/Linux Process.md",
     "linux_note/Overlay2.md",
     "linux_note/functional CLI.md",
