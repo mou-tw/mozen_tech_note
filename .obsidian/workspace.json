@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/Unix-like OS.md",
+                "file": "container_note/Install Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/Unix-like OS.md",
+                "file": "container_note/Install Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/Unix-like OS.md",
+                "file": "container_note/Install Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/Unix-like OS.md"
+                "file": "container_note/Install Docker.md"
               }
             }
           }
@@ -162,6 +162,8 @@
   },
   "active": "ebb22f73669174dc",
   "lastOpenFiles": [
+    "linux_note/Unix-like OS.md",
+    "container_note/Install Docker.md",
     "linux_note/Linux Process.md",
     "linux_note/Overlay2.md",
     "linux_note/functional CLI.md",
@@ -169,7 +171,6 @@
     "linux_note/Build self rootfs.md",
     "linux_note/chroot.md",
     "linux_note/chmod.md",
-    "linux_note/Unix-like OS.md",
     "linux_note/Linux Note Unorganized.md",
     "container_note/Container Principle.md",
     "linux_note/Unshare.md",
