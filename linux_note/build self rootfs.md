@@ -17,7 +17,7 @@ Q: rootfs能否adduser
 Q: /dev 和/proc中是否有訊息
 >minirootfs預設沒有host機上的硬體，等同/dev中是空的，預設/proc中也是空
 /proc中的資料全部都存在memory，是一種記憶體型的虛擬目錄
-ps命令本身也是去讀取proc
+ ps命令本身也是去讀取proc
 
 
 
