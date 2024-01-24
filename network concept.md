@@ -16,4 +16,4 @@ DHCP
 在日常使用中，手機連上wifi或者電腦插上網路線能上網，很多時候是透過DHCP機制，由操作系統向外發出一個DHCP request，router獲取到request會自動分配一個地址，透過DHCP message回傳地址，將IP綁定到網路卡上，並且這個IP是局域網內唯一的
 
 ARP協議
-當操作系統要發送一個包含IP和內容的訊息前，會先發一個ARP message，詢問該地址所對應的mac address是誰，而這個過程所有網路上的設備都收到了該訊息，除了正確的IP所對應的系統，都會將這個詢問message丟棄，只有規
+當操作系統要發送一個包含IP和內容的訊息前，會先發一個ARP message，詢問該地址所對應的mac address是誰，而這個過程所有網路上的設備都收到了該訊息，除了正確的IP所對應的系統，都會將這個詢問message丟棄，只有對應的IP設備會將自己的mac address發送回去，收到mac address的的機器會cache這個mac address和IP的對應後，再將需要傳送的訊息發出
