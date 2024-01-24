@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/Linux Note Unorganized.md",
+                "file": "linux_note/Unix-like OS.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/Linux Note Unorganized.md",
+                "file": "linux_note/Unix-like OS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/Linux Note Unorganized.md",
+                "file": "linux_note/Unix-like OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/Linux Note Unorganized.md"
+                "file": "linux_note/Unix-like OS.md"
               }
             }
           }
@@ -162,14 +162,15 @@
   },
   "active": "ebb22f73669174dc",
   "lastOpenFiles": [
+    "linux_note/Linux Note Unorganized.md",
+    "linux_note/Unix-like OS.md",
     "linux_note/linux namespace.md",
     "container_note/Container Principle.md",
     "linux_note/Unshare.md",
-    "Pasted image 20240122170339.png",
+    "linux_note/pics/Pasted image 20240122170339.png",
     "linux_note/pics/Pasted image 20240122165250.png",
     "linux_note/Linux Process.md",
     "linux_note/overlay2.md",
-    "linux_note/Linux Note Unorganized.md",
     "linux_note/build self rootfs.md",
     "linux_note/CGroup (linux control group).md",
     "linux_note/CLIs/mount.md",
