@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "container_note/Container Principle.md",
+                "file": "linux_note/linux namespace.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "container_note/Container Principle.md",
+                "file": "linux_note/linux namespace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "container_note/Container Principle.md",
+                "file": "linux_note/linux namespace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "container_note/Container Principle.md"
+                "file": "linux_note/linux namespace.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "ebb22f73669174dc",
   "lastOpenFiles": [
+    "container_note/Container Principle.md",
     "linux_note/Unshare.md",
     "Pasted image 20240122170339.png",
     "linux_note/pics/Pasted image 20240122165250.png",
@@ -172,7 +173,6 @@
     "linux_note/build self rootfs.md",
     "linux_note/CGroup (linux control group).md",
     "linux_note/CLIs/mount.md",
-    "container_note/Container Principle.md",
     "linux_note/functional CLI.md",
     "linux_note/chroot.md",
     "linux_note/chmod.md",
