@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/Linux Process.md",
+                "file": "linux_note/functional CLI.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/Linux Process.md",
+                "file": "linux_note/functional CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/Linux Process.md",
+                "file": "linux_note/functional CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/Linux Process.md"
+                "file": "linux_note/functional CLI.md"
               }
             }
           }
@@ -188,13 +188,13 @@
   "lastOpenFiles": [
     "container_note/Container Principle.md",
     "docker architecture.md",
-    "Pasted image 20240124161345.png",
     "Pasted image 20240124161314.png",
-    "linux_note/Unix-like OS.md",
     "network concept.md",
+    "Pasted image 20240124161345.png",
+    "linux_note/Linux Process.md",
+    "linux_note/Unix-like OS.md",
     "container_note/Install Docker.md",
     "network_note",
-    "linux_note/Linux Process.md",
     "linux_note/Overlay2.md",
     "linux_note/functional CLI.md",
     "linux_note/Linux namespace.md",
