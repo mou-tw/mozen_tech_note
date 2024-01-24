@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "175f2f4ddfeb00b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/Unix-like OS.md",
+                "file": "docker architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/Unix-like OS.md",
+                "file": "docker architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/Unix-like OS.md"
+                "file": "docker architecture.md"
               }
             }
           }
@@ -172,9 +184,12 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "c788f4976b19ed06",
+  "active": "175f2f4ddfeb00b0",
   "lastOpenFiles": [
+    "Pasted image 20240124161345.png",
+    "Pasted image 20240124161314.png",
     "linux_note/Unix-like OS.md",
+    "docker architecture.md",
     "network concept.md",
     "container_note/Install Docker.md",
     "network_note",
