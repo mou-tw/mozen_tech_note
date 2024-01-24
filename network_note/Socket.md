@@ -3,4 +3,10 @@
 - protocol 協議: TCP, UDP, IP等
 - ip address
 - port
-socket 和port在某些語境底下是相同的意思，但本質上是不同的概念，因為port
+socket 和port在某些語境底下是相同的意思，但本質上是不同的概念，因process之間需要溝通時，需要開一個port並綁定IP
+
+查看Linux socket資訊
+```
+ss
+
+```
