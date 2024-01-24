@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "container_note/Docker architecture.md",
+                "file": "network_note/Socket.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "container_note/Docker architecture.md",
+                "file": "network_note/Socket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "container_note/Docker architecture.md",
+                "file": "network_note/Socket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "container_note/Docker architecture.md"
+                "file": "network_note/Socket.md"
               }
             }
           }
@@ -186,15 +186,16 @@
   },
   "active": "175f2f4ddfeb00b0",
   "lastOpenFiles": [
+    "container_note/Docker architecture.md",
+    "network_note/Socket.md",
     "container_note/Pics",
     "container_note/Pics/Pasted image 20240124161314.png",
-    "network concept.md",
+    "network_note/network concept.md",
     "linux_note/CGroup (linux control group).md",
     "linux_note/chmod.md",
     "container_note/Install Docker.md",
     "container_note/Container Principle.md",
     "linux_note/functional CLI.md",
-    "container_note/Docker architecture.md",
     "Pasted image 20240124161345.png",
     "linux_note/Linux Process.md",
     "linux_note/Unix-like OS.md",
