@@ -12,4 +12,7 @@ MAC address由六個字節組成
 
 IPV4的IP已經在2011年被完全使用完畢
 
-網卡上分配IP位置
+DHCP
+在日常使用中，手機連上wifi或者電腦插上網路線能上網，很多時候是透過DHCP機制，由操作系統向外發出一個DHCP request，router獲取到request會自動分配一個地址，透過DHCP message回傳地址，將IP綁定到網路卡上，並且這個IP是局域網內唯一的
+
+ARP協議
