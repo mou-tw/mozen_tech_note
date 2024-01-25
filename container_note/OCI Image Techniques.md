@@ -50,4 +50,17 @@ $ skopeo copy --insecure-policy docker://busybox:latest dir:/tmp/busybox
 將image以OCI 規範下載到指定目錄
 ```
 $ skopeo copy --insecure-policy docker://busybox:latest oci:/tmp/busybox
+$ tree /tmp
 ```
+
+blob- binary large object
+
+
+
+[ref](https://lework.github.io/2020/04/13/skopeo/)
+
+
+
+
+
+
