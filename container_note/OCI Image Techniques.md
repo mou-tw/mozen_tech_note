@@ -57,7 +57,21 @@ blob- binary large object
 
 [ref](https://lework.github.io/2020/04/13/skopeo/)
 
-### 檢視OCI format的紀錄
+### 檢視OCI format的資訊
+```
+$ cat /tmp/busybox/oci-layout
+$ 
+{
+  "schemaVersion": 2,
+  "manifests": [
+    {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:538721340ded10875f4710cad688c70e5d0ecb4dcd5e7d0c161f301f36f79414",
+      "size": 858
+    }
+  ]
+}
+```
 
 
 
