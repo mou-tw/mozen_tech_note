@@ -34,5 +34,17 @@ skopeo 可以從image倉庫中複製image，只要是符合OCI的distribution sp
 
 ### 不使用docker，將image下載至docker 本地後端倉庫
 ```
+$ skopeo copy --insecure-policy docker://busybox:latest docker-archive:/tmp/busybox.tar
+docker-archi
 
+同理可將image從docker 本地倉庫複製到本地其他目錄
+$ skopeo copy docker-daemon://busybox:latest docker-daemon:/tmp/busybox
+
+```
+
+
+
+
+```
+$ skopeo copy --insecure-policy docker://busybox:latest oci:/tmp/busybox
 ```
