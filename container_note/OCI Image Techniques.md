@@ -71,6 +71,14 @@ $ cat /tmp/busybox/index.json | jq
     }
   ]
 }
+
+#查詢OCI specification中的manifest檔案
+$  cat  /tmp/busybox2/blobs/sha256/538721340ded10875f4710cad688c70e5d0ecb4dcd5e7d0c161f301f36f79414 | jq
+
+
+#觀察config檔案
+$ cat  /tmp/busybox2/blobs/sha256/538721340ded10875f4710cad688c70e5d0ecb4dcd5e7d0c161f301f36f79414 | jq
+
 ```
 
 
