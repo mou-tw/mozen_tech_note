@@ -17,5 +17,13 @@ Image Index -> Image Manifest ->  Image Configuration + Filesystem Layer
 因目前ubuntu不支援，需安裝其他OS，以alpine liunx為例
 ```
 #alpine linux
+$ docker run --rm -it --name alp alpine
+
+# in docker container
+$ apk add skopeo
+$ skopeo -v
+
+#檢查docker hub 上的python images
+$ 
 
 ```
