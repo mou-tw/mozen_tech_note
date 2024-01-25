@@ -79,9 +79,10 @@ $  cat  /tmp/busybox2/blobs/sha256/538721340ded10875f4710cad688c70e5d0ecb4dcd5e7
 #觀察config檔案
 $ cat  /tmp/busybox2/blobs/sha256/538721340ded10875f4710cad688c70e5d0ecb4dcd5e7d0c161f301f36f79414 | jq
 
-#觀察file layer
-$ cat 
-
+#解壓縮file layer
+$ mkdir /tmp/busybox-fs
+$ tar xvfz /tmp/busybox2/blobs/sha256/9ad63333ebc97e32b987ae66aa3cff81300e4c2e6d2f2395cef8a3ae18b249fe  -C /tmp/busybox-fs/
+$ tree /tmp/busybox-fs/
 ```
 
 
