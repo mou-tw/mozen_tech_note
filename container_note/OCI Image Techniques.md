@@ -60,7 +60,7 @@ blob- binary large object
 ### 檢視OCI format的資訊
 ```
 $ cat /tmp/busybox/oci-layout
-$ 
+$ cat /tmp/busybox/index.json | jq
 {
   "schemaVersion": 2,
   "manifests": [
