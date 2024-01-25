@@ -38,13 +38,16 @@ $ skopeo copy --insecure-policy docker://busybox:latest docker-archive:/tmp/busy
 docker-archive儲存後的文件，可被docker load 讀取
 
 同理可將image從docker 本地倉庫複製到本地其他目錄
-$ skopeo copy docker-archive:/tmp/busybox.tar docker-daemon:/tmp/busybox
-
+$ skopeo copy docker-archive:/tmp/busybox.tar docker-daemon:busybox:latest
+$ docker images
 ```
 
+將image下載到指定目錄
+```
+$ skopeo copy --insecure-policy docker://busybox:latest dir:/tmp/busybox
+```
 
-
-
+將image以OCI 規範下載到指定目錄
 ```
 $ skopeo copy --insecure-policy docker://busybox:latest oci:/tmp/busybox
 ```
