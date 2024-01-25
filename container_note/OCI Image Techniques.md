@@ -28,3 +28,11 @@ $ skopeo list-tags docker://docker.io/python
 $ skopeo inspect docker://docker.io/python
 
 ```
+
+skopeo copy
+skopeo 可以從image倉庫中複製image，只要是符合OCI的distribution specification的倉庫都可以拉取(quay, dockerhub, openshift, GCR.....)，也可以從本地容器儲存後端(docker, podman )的image layout目錄等
+
+ex: 從docker hub 下載複製busybox:latest到指定目錄中
+```
+
+```
