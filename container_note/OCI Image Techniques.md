@@ -25,6 +25,6 @@ $ skopeo -v
 
 #檢查docker hub 上的python images
 $ skopeo list-tags docker://docker.io/python
-
+$ skopeo inspect docker://docker.io/python
 
 ```
