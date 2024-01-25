@@ -55,10 +55,9 @@ $ tree /tmp
 
 blob- binary large object
 
-
-
 [ref](https://lework.github.io/2020/04/13/skopeo/)
 
+### 檢視OCI format的紀錄
 
 
 
