@@ -116,7 +116,7 @@ RUNC
 runc 是根據OCI image specification，以GO lang完成的OCI runtimes
 因為runc 的API接口是符合OCI 規範的，因此其他OCI rumtime的同樣API接口功能都是相通的
 runc 除了create container，也包含linux namespace，chroot，控管cgroup等權限
-runc 是docker完成且運作在docker中的OCI runtimes
+runc 同時也是docker完成且運作在docker中的OCI runtimes
 
 ```
 $ 
@@ -130,7 +130,7 @@ $
 
 
 
-\
+
 
 
 
