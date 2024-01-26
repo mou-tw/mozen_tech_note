@@ -86,9 +86,7 @@ $ tree /tmp/busybox-fs/
 ```
 
 
-
-
-umoci
+### 使用umoci unpack image
 ```
 #查看image版本
 $ umoci ls --layout <oci format image dir> 

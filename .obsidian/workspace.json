@@ -174,8 +174,9 @@
   },
   "active": "4a350651a109dda8",
   "lastOpenFiles": [
-    "container_note/Docker architecture.md",
     "container_note/OCI Image Techniques (skopeo, umoci).md",
+    "container_note/OCI Specification.md",
+    "container_note/Docker architecture.md",
     "container_note/Install Docker.md",
     "container_note/Container Principle.md",
     "network_note/Socket.md",
@@ -188,7 +189,6 @@
     "container_note/Pics/Pasted image 20240124205902.png",
     "container_note/Pics/Pasted image 20240124161314.png",
     "container_note/Pics",
-    "container_note/OCI Specification.md",
     "linux_note/overlay2.md",
     "linux_note/CLIs/mount.md",
     "linux_note/Unshare.md",
