@@ -51,7 +51,7 @@ $ skopeo copy --insecure-policy docker://busybox:latest dir:/tmp/busybox
 ```
 $ skopeo copy --insecure-policy docker://busybox:latest oci:/tmp/busybox
 $ tree /tmp
-index.json基本存放該image的訊息，包括manifest、config和ㄙㄧㄚ
+index.json基本存放該image的訊息，包括manifest、config和壓縮後的rootfs檔案
 
 
 
