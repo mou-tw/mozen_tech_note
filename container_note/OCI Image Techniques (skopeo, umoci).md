@@ -121,7 +121,9 @@ runc 除了create container，也包含linux namespace，chroot，控管cgroup�
 runc 同時也是docker完成且運作在docker中的OCI runtimes
 
 ```
-$ 
+# 如果是使用docker container執行
+
+$ runc run 
 
 ```
 
