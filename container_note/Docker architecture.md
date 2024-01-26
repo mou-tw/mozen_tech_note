@@ -14,6 +14,7 @@ $ ps aux | grep -v grep | grep 'containerd-shim'
 
 
 
-
+docker driver
+會自動把image 解包打開，把壓縮檔掛載overlay2 的lowwer dir
 
 
