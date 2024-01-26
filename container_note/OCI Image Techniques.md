@@ -95,8 +95,11 @@ $ umoci ls --layout <oci format image dir>
 # 查看image狀態
 $ umoci stat --image /busybox:version
 
-#修改image tag
+# 創造new image tag
 $ umoci tag --image /busybox:1.0 tmp
-$ umoci 
+$ umoci ls --layout <oci format image dir> 
+
+# delete image tag 
+$ umoci rm --image /busybox:tmp
 
 ```
