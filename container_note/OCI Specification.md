@@ -18,11 +18,8 @@ runsc >>  google設計run security，有自己的kernal，
 - rootfs從image unpack而來[[OCI Image Techniques (skopeo, umoci)#使用umoci unpack image]]
 - runtime config宣告container電腦名稱要叫甚麼、要跑甚麼process、設定cgroup資源限制,capability等基礎技術的宣告
 - 而將runtime config和rootfs合而為一的概念為bundle
-- 透過OCI runtime在bundle資料夾底下可運行
+- 透過OCI runtime在bundle資料夾底下可運行container
 
-而需要的檔案系統在rootfs
-
-將rumtime和rootfs合而為一的概念稱為bundle
 
 
 
