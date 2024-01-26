@@ -3,6 +3,13 @@ OCI為制定容器標準的組織，定義了容器的規格以及API調用接�
 - Image - 定義container的結構
 - Distribution- 定義image如何被儲存以及取用(repo, graphic DB)
 - Runtime- 具體定義contianer如何被創建，runC, crun, runsc, KATA
+> runc >> docker 使用go lang開發
+crun >> google使用C語言開發
+runsc >>  google設計run security，有自己的kernal，
+[kata](https://katacontainers.io/) >> kata，container具有VM的安全性
+
+
+[ref linux KVM](https://aws.amazon.com/tw/what-is/kvm/)
 
 ![[Pasted image 20240124205902.png]]
 

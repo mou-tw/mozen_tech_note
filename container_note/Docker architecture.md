@@ -18,3 +18,8 @@ docker driver
 會自動把image 解包打開，把壓縮檔掛載overlay2 的lowwer dir
 
 
+
+
+
+當container關閉，host的服務，不論是docker 或者podman都會送一個15的訊息進去container，使container釋放資源
+
