@@ -92,6 +92,11 @@ umoci
 ```
 #查看image版本
 $ umoci ls --layout <oci format image dir> 
+# 查看image狀態
+$ umoci stat --image /busybox:version
 
+#修改image tag
+$ umoci tag --image /busybox:1.0 tmp
+$ umoci 
 
 ```
