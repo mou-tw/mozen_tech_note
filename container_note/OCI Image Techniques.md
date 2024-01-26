@@ -102,4 +102,20 @@ $ umoci ls --layout <oci format image dir>
 # delete image tag 
 $ umoci rm --image /busybox:tmp
 
+
+# unpack image into bundle
+$ umoci unpack --image <oci format image dir> <bundle path>
+$ umoci unpack --image /busybox:1.0 /tmp/busybox-bundle
+$ ls -al /tmp/busybox-bundle
+$ tree /tmp/busybox-bundle
+
 ```
+
+
+RUNC
+runc 是根據OCI image specification，以GO lang丸
+
+
+
+
+
