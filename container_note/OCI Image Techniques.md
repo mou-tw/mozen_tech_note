@@ -118,7 +118,10 @@ runc 是根據OCI image specification，以GO lang完成的OCI runtimes
 runc 除了create container，也包含linux namespace，chroot，控管cgroup等權限
 runc 是docker完成且運作在docker中的OCI runtimes
 
+```
+$ 
 
+```
 
 
 
