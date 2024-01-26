@@ -19,11 +19,7 @@ runsc >>  google設計run security，有自己的kernal，
 - runtime config宣告container電腦名稱要叫甚麼、要跑甚麼process、設定cgroup資源限制,capability等基礎技術的宣告
 - 而將runtime config和rootfs合而為一的概念為bundle
 - 透過OCI runtime在bundle資料夾底下可運行container
-
-
-
-
-
+- image registry 本身是個graph DB，底層的layer壓縮檔案不需要重複存檔
 
 
 
