@@ -52,7 +52,7 @@ collision domain為會產生碰撞的區域，hub集線器為其中之一，舉�
 避免碰撞區就是使用switch
 
 switch
-早期的switch很貴，因此幾乎都是switch接hub再接電腦，隨著switch的成本降低，目前已不存在這類架構，已不需要規劃碰撞區，hub也被淘汰
+早期的switch很貴，因此幾乎都是switch接hub再接電腦，隨著switch的成本降低，目前已不存在這類架構，已不需要規劃碰撞區，hub也被淘汰 
 
 
 
