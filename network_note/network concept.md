@@ -55,8 +55,10 @@ switch
 早期的switch很貴，因此幾乎都是switch接hub再接電腦，隨著switch的成本降低，目前已不存在這類架構，已不需要規劃碰撞區，hub也被淘汰 
 
 CSMA/CD碰撞問題解決方案
-- CSMA(Carrier Sense Multiple Access)- 用於防止碰撞
+- CSMA(Carrier Sense Multiple Access)- 用於防止碰撞，CS(carrier sense)就是監測hub的bus中是否有資料在傳輸，原理是傳輸時本質上也是透過電流強弱，如果檢測已經有資料在bus上傳遞，就暫時不傳遞資料
+
 - CD(Collision Detection)- 偵測碰撞機制，用於加速碰撞的產生
+
 
 另有一種解決無線網路的碰撞機制為CSMA/CA (Carrier Sense Multiple Access/ collision avoidance)
 
