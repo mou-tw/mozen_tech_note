@@ -57,7 +57,7 @@ switch
 CSMA/CD碰撞問題解決方案
 - CSMA(Carrier Sense Multiple Access)- 用於防止碰撞，CS(carrier sense)就是監測hub的bus中是否有資料在傳輸，原理是傳輸時本質上也是透過電流，如果檢測已經有資料在bus上傳遞，就暫時不傳遞資料，而CS功能是做在網路卡上的
 
-- CD(Collision Detection)- 偵測碰撞機制，用於加速碰撞的產生。因CSMA仍然沒有辦法阻止同時傳送的碰撞可能，因此，
+- CD(Collision Detection)- 偵測碰撞機制，用於加速碰撞的產生。因CSMA仍然沒有辦法阻止同時傳送的碰撞可能，因此當發送即將發生碰撞時，由網路其中一台機器監測到時，會發送一個jam的訊號，清空載波，並透過backoff algorithm，將兩台電腦下次送出訊號的時間錯開
 
 
 另有一種解決無線網路的碰撞機制為CSMA/CA (Carrier Sense Multiple Access/ collision avoidance)
