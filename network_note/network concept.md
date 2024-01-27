@@ -48,8 +48,8 @@ hub本身行為有洩漏資料可能，以駭客的角度會想要把switch轉�
 bus collision碰撞
 集線器(hub)本身只是硬體，沒辦法設定，類似訊號加強器，會有碰撞的問題，hub上一次只能有一台電腦送指令，如果有兩台電腦同時發指令就會發生碰撞，資料會毀損
 collision domain為會產生碰撞的區域，hub集線器為其中之一，舉例來說一個hub連接四台電腦，這四台電腦就在同一個碰撞區
-碰撞也分為Early collision 和late collision，小於512 bits的碰撞為early, 反之為late
-late collision發生代表有硬體問題層級產生的碰撞，如網卡有問題，網線不穩等使CD偵測時間延遲，導致碰撞比較晚發生
+碰撞也分為Early collision 和late collision，小於512 bits的碰撞為early, 反之為late。
+late collision雖符合乙太網路規格定義，但頻繁發生代表有硬體問題層級產生的碰撞，如網卡有問題，網線不穩等使CD偵測時間延遲，導致碰撞比較晚發生
 
 
 避免碰撞區就是使用switch
@@ -65,6 +65,11 @@ CSMA/CD碰撞問題解決方案
 
 另有一種解決無線網路的碰撞機制為CSMA/CA (Carrier Sense Multiple Access/ collision avoidance)
 
+
+
+
+Bridge 
+交換器的前身是橋接器，一般橋接器有兩個port，每個port後面都是獨立的bus，因此同時送資料並不會發生碰撞
 
 
 
