@@ -5,6 +5,7 @@ MAC address由六個字節bytes(48位元bits)組成
 >前三碼為廠商號碼
 >後三碼為網卡序列號
 
+mac 的廠商可在[網站](https://macvendors.com/)查詢
 
 透過網路發送訊息給目標用戶，基礎資訊包含IP和要傳送的內容，而mac address會由OS查詢ARP表補齊，並從自身的設備上網路卡發送而出
 
