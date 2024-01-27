@@ -65,14 +65,15 @@ CSMA/CD碰撞問題解決方案
 
 另有一種解決無線網路的碰撞機制為CSMA/CA (Carrier Sense Multiple Access/ collision avoidance)
 
+switch如果設為half duplex半雙工，就會產生碰撞
 
 
 
 Bridge 
-交換器的前身是橋接器，Bridge具備防止迴圈的偵測功能，一般橋接器有兩個port，每個port後面都是獨立的bus，因此同時送資料並不會發生碰撞，隨著技術的演進，bridge不只有兩個port，可以產生多port的bridge，就稱為交換器
+交換器的前身是橋接器，Bridge具備防止迴圈的偵測功能，一般橋接器有兩個port，每個port後面都是獨立的bus，因此同時送資料並不會發生碰撞，隨著技術的演進，bridge不只有兩個port，可以產生多port的bridge，就稱為交換器switch
 
 
-
+ 
 
 網路傳送機制
 
