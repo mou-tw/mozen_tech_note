@@ -51,9 +51,7 @@ $ skopeo copy --insecure-policy docker://busybox:latest dir:/tmp/busybox
 ```
 $ skopeo copy --insecure-policy docker://busybox:latest oci:/tmp/busybox
 $ tree /tmp
-index.json基本存放該image的訊息，包括manifest、config和壓縮後的rootfs檔案
-
-
+index.json基本存放該image的訊息，包括manifest、config和壓縮後的layer rootfs檔案
 
 ```
 
@@ -121,9 +119,9 @@ runc 除了create container，也包含linux namespace，chroot，控管cgroup�
 runc 同時也是docker完成且運作在docker中的OCI runtimes
 
 ```
-# 如果是使用docker container執行
+# 如果是使用docker container執行，需要開啟--privilege=true
 
-$ runc run 
+$ runc run <contianer name>
 
 ```
 
