@@ -70,7 +70,7 @@ switch如果設為half duplex半雙工，就會產生碰撞
 switch上本身可以有OS，能做更多進階功能如Vlan, VTP, STP等，市售的便宜交換器可能會選擇去除IOS可做進階的功能設定，只有留下避免碰撞的功能
 
 switch資料傳遞機制
-與hub不同，hub為全部傳送，switch可針對特定群組傳送
+與hub不同，hub為全部傳送，switch可針對特定群組 傳送
 
 
 Bridge 
