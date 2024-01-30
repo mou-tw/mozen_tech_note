@@ -25,4 +25,16 @@ For cgroup v1, the output is tmpfs.
 
 
 
-## cgro
+## hands on cgroup v2
+```
+$ stat -fc %T /sys/fs/cgroup/
+cgroup2fs
+
+$ ls -al /sys/fs/cgroup/
+
+# 確認目前 Cgroup 有支援那些 運算資源 限制
+$ cat /sys/fs/cgroup/cgroup.subtree_control
+cpuset cpu io memory hugetlb pids
+
+
+```
