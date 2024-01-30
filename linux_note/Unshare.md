@@ -34,6 +34,7 @@ $ hostname
 ### 隔離PID
 ```
 $ sudo unshare --pid --fork sh 
+必須要下--fork否則會抓不到process
 $ echo $$
 1
 
