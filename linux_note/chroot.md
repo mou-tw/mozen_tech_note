@@ -1,8 +1,8 @@
 主要功能為更換linux的根目錄位置
 以將 /layer1/layer2/layer3 作為root目錄，並運行sh為例
 ```
-$ mkdir -p /layer1/layer2/layer3/bin
-$ mkdir -p /layer1/layer2/layer3/lib
+$ mkdir -p ~/layer1/layer2/layer3/bin
+$ mkdir -p ~/layer1/layer2/layer3/lib
 $ cp /bin/sh /layer1/layer2/layer3/bin/
 # 需先用ldd查詢sh 的相依檔
 $ cp /lib/ld-musl-x86_64.so.1 /layer1/layer2/layer3/lib/
