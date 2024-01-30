@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/chroot.md",
+                "file": "linux_note/overlay2.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/chroot.md",
+                "file": "linux_note/overlay2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/chroot.md",
+                "file": "linux_note/overlay2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/chroot.md"
+                "file": "linux_note/overlay2.md"
               }
             }
           }
@@ -174,6 +174,11 @@
   },
   "active": "00d8cc66b77ca3b9",
   "lastOpenFiles": [
+    "linux_note/CLIs/mount.md",
+    "linux_note/overlay2.md",
+    "container_note/Container Principle.md",
+    "linux_note/chmod.md",
+    "linux_note/chroot.md",
     "container_note/OCI Image Techniques (skopeo, umoci).md",
     "network_note/network concept.md",
     "linux_note/CGroup (linux control group).md",
@@ -181,7 +186,6 @@
     "container_note/OCI Specification.md",
     "container_note/Docker architecture.md",
     "container_note/Install Docker.md",
-    "container_note/Container Principle.md",
     "network_note",
     "linux_note/pics/Pasted image 20240122170339.png",
     "linux_note/pics/Pasted image 20240122165250.png",
@@ -190,15 +194,11 @@
     "container_note/Pics/Pasted image 20240124205902.png",
     "container_note/Pics/Pasted image 20240124161314.png",
     "container_note/Pics",
-    "linux_note/overlay2.md",
-    "linux_note/CLIs/mount.md",
     "linux_note/Unshare.md",
     "linux_note/linux namespace.md",
     "linux_note/Linux Note Unorganized.md",
     "linux_note/functional CLI.md",
-    "linux_note/chmod.md",
     "linux_note/Linux Process.md",
-    "linux_note/chroot.md",
     "linux_note/build self rootfs.md",
     "linux_note/pics/Pasted image 20240118231137.png",
     "linux_note/CLIs",
