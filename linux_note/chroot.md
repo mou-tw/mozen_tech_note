@@ -16,6 +16,7 @@ $ chroot /layer1/layer2/layer3/ /bin/sh
 在上述的環境之下，新增busybox工具至新的root /bin資料夾中
 ```
 $ cp /bin/busybox /layer1/layer2/layer3/bin/
+$ chroot /layer1/layer2/layer3/ /bin/sh
 $ /bin/busybox --install -s 
 #過程中很可能有路徑不存在的問題，可退出重新mkdir路徑
 
