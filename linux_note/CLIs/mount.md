@@ -19,7 +19,7 @@ $ sudo umount b
 
 ### create overlay2 mount
 ```
-$ mkdir -p ~/overlay2/{lower1,lower2,upper,merged,work}
+$ mkdir -p ~/overlay2/{lower1,lower2,upper,merged,work}; cd overlay2
 $ echo 'lower1' > lower1/in_lower1.txt; echo 'lower2' > lower2/in_lower2.txt; echo 'upper' > upper/in_upper.txt; echo 'lower1_both' > lower1/in_both.txt; echo 'lower2_both' > lower2/in_both.txt; echo 'upper_both' > upper/in_both.txt
 $ tree
 .
