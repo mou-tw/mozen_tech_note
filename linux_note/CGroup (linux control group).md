@@ -35,6 +35,35 @@ $ ls -al /sys/fs/cgroup/
 # 確認目前 Cgroup 有支援那些 運算資源 限制
 $ cat /sys/fs/cgroup/cgroup.subtree_control
 cpuset cpu io memory hugetlb pids
+#建立 的 Example 目錄中, 會繼承 /sys/fs/cgroup/cgroup.subtree_control 宣告的 控制項目 
+$ sudo ls -al /sys/fs/cgroup/Example/ | grep cpu
+Enable the CPU-related controllers in /sys/fs/cgroup/Example/ to obtain controllers that are relevant only to CPU:
+$ echo "+cpu" | sudo tee /sys/fs/cgroup/Example/cgroup.subtree_control
++cpu
+$ echo "+cpuset" | sudo tee /sys/fs/cgroup/Example/cgroup.subtree_control
++cpuset
+$ sudo mkdir /sys/fs/cgroup/Example/tasks/
+
+$ ls -al /sys/fs/cgroup/Example/tasks/
+
+Ensure the processes that you want to control for CPU time compete on the same CPU:
+$ echo "1" | sudo tee /sys/fs/cgroup/Example/tasks/cpuset.cpus
+
+This command sets CPU time distribution controls so that all processes collectively in the /sys/fs/cgroup/Example/tasks child group can run on the CPU for only 0.2 seconds of every 1 second.
+$ echo "200000 1000000" | sudo tee /sys/fs/cgroup/Example/tasks/cpu.max
+
+
+$ yes &>/dev/null &
+$ echo "20434" | sudo tee /sys/fs/cgroup/Example/tasks/cgroup.procs
+$ top
+
+```
+
+
+## hands on cgroup v1
+v1的 cgroup操作需要安裝額外工具
+```
+
 
 
 ```
