@@ -63,7 +63,13 @@ $ top
 ## hands on cgroup v1
 v1的 cgroup操作需要安裝額外工具
 ```
+#沒有要額外安裝
+#ubuntu預設已安裝
+$ sudo apk add cgroup-tools --update-cache --repository http://dl-3.alpinelinux.org/alpine/edge/community/ --allow-untrusted
 
+自定 cpu 控制群組
+$ sudo cgcreate -g cpu:/low; sudo cgcreate -g cpu:/high
+$ sudo cgset -r cpu.shares=512 low; sudo cgset -r cpu.shares=2048 high
 
 
 ```
