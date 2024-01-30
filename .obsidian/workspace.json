@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/CGroup (linux control group).md",
+                "file": "linux_note/linux namespace.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09779a04713cc532",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux_note/Unshare.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/CGroup (linux control group).md",
+                "file": "linux_note/Unshare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/CGroup (linux control group).md",
+                "file": "linux_note/Unshare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/CGroup (linux control group).md"
+                "file": "linux_note/Unshare.md"
               }
             }
           }
@@ -172,8 +184,11 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "00d8cc66b77ca3b9",
+  "active": "09779a04713cc532",
   "lastOpenFiles": [
+    "linux_note/linux namespace.md",
+    "linux_note/Unshare.md",
+    "linux_note/CGroup (linux control group).md",
     "linux_note/CLIs/mount.md",
     "linux_note/overlay2.md",
     "container_note/Container Principle.md",
@@ -181,7 +196,6 @@
     "linux_note/chroot.md",
     "container_note/OCI Image Techniques (skopeo, umoci).md",
     "network_note/network concept.md",
-    "linux_note/CGroup (linux control group).md",
     "network_note/Socket.md",
     "container_note/OCI Specification.md",
     "container_note/Docker architecture.md",
@@ -194,8 +208,6 @@
     "container_note/Pics/Pasted image 20240124205902.png",
     "container_note/Pics/Pasted image 20240124161314.png",
     "container_note/Pics",
-    "linux_note/Unshare.md",
-    "linux_note/linux namespace.md",
     "linux_note/Linux Note Unorganized.md",
     "linux_note/functional CLI.md",
     "linux_note/Linux Process.md",
