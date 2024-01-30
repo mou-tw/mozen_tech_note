@@ -71,5 +71,18 @@ $ sudo apk add cgroup-tools --update-cache --repository http://dl-3.alpinelinux.
 $ sudo cgcreate -g cpu:/low; sudo cgcreate -g cpu:/high
 $ sudo cgset -r cpu.shares=512 low; sudo cgset -r cpu.shares=2048 high
 
+自定 cpuset 控制群組
+$ sudo cgcreate -g cpuset:/first
+$ sudo cgset -r cpuset.cpus=0 first
+
+設定本機沒有 多顆實體 CPU 架構 (NUMA)
+$ sudo cgset -r cpuset.mems=0 first
+
+$ sudo cgexec -g cpu:high -g cpuset:first yes &>/dev/null &
+$ sudo cgexec -g cpu:low -g cpuset:first yes &>/dev/null &
+
+
+$ sudo kill -9 <pid>
 
 ```
+
