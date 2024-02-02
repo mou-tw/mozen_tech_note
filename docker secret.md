@@ -1,0 +1,2 @@
+docker secret 必須基於docker swarm的基礎上建立
+podman目前看似不需要
