@@ -11,4 +11,63 @@ ENV KEY <VALUE>
 
 因此動態插入機敏資訊顯得重要
 
+解決方案之一為使用ARG語法
 
+```
+# Dockerfile
+
+ARG env1
+ARG env2
+
+```
+
+要動態賦值這個ARG，需要在build image時指定
+
+```
+$ docker build -t <tag> --build-arg env1=dev --build-arg env2=dev
+```
+
+
+
+範例
+```
+
+from alpine as base
+
+ARG env
+
+ARG app_configuration_conn_str
+
+  
+
+RUN echo $env > /var/env ; echo $app_configuration_conn_str > var/conn_str
+
+  
+
+# builder first step python environment
+
+FROM python:3.11.7-slim-bookworm
+
+  
+
+COPY --from=base /var/env /var/env
+
+COPY --from=base /var/conn_str /var/conn_str
+
+  
+
+ENV PYTHONPATH /datapipeline_refactory
+
+#setting time zone
+
+RUN ln -s /usr/share/zoneinfo/Asia/Taipei /etc/localtime
+
+  
+  
+
+COPY ./requirements.txt /requirements.txt
+
+RUN pip install -r /requirements.txt
+
+RUN rm /requirements.txt
+```
