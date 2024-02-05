@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0c723786c897a82b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "loosing note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data type mapping.md",
+                "file": "loosing note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data type mapping.md",
+                "file": "loosing note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data type mapping.md"
+                "file": "loosing note.md"
               }
             }
           }
@@ -232,8 +244,10 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "274003861420845e",
+  "active": "0c723786c897a82b",
   "lastOpenFiles": [
+    "data type mapping.md",
+    "loosing note.md",
     "markdown template.md",
     "linux_note/Unshare.md",
     "linux_note/Unix-like OS.md",
@@ -245,7 +259,6 @@
     "container_note/Container Principle.md",
     "container_note/OCI Specification.md",
     "container_note/OCI Image Techniques (skopeo, umoci).md",
-    "data type mapping.md",
     "linux_note/CGroup (linux control group).md",
     "quick_note/container change local time.md",
     "docker secret.md",
