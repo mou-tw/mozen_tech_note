@@ -78,9 +78,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e8c8bd017a917046",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux_note/Unshare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "274003861420845e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -146,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux_note/Unshare.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux_note/Unshare.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux_note/Unshare.md"
+                "file": "未命名.md"
               }
             }
           }
@@ -208,38 +232,40 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "c123abfcb9ca575b",
+  "active": "274003861420845e",
   "lastOpenFiles": [
+    "linux_note/Unshare.md",
+    "未命名.md",
+    "linux_note/Unix-like OS.md",
+    "linux_note/overlay2.md",
+    "linux_note/Linux Process.md",
+    "linux_note/linux namespace.md",
+    "linux_note/functional CLI.md",
+    "container_note/Docker architecture.md",
+    "container_note/Container Principle.md",
+    "container_note/OCI Specification.md",
+    "container_note/OCI Image Techniques (skopeo, umoci).md",
+    "data type mapping.md",
     "linux_note/CGroup (linux control group).md",
     "quick_note/container change local time.md",
     "docker secret.md",
     "quick_note/container image 動態隱藏機敏資訊.md",
     "quick_note/container 環境python找到路徑.md",
-    "linux_note/Unshare.md",
     "quick_note",
-    "linux_note/linux namespace.md",
     "linux_note/CLIs/mount.md",
-    "linux_note/overlay2.md",
-    "container_note/Container Principle.md",
     "linux_note/chmod.md",
     "linux_note/chroot.md",
-    "container_note/OCI Image Techniques (skopeo, umoci).md",
     "network_note/network concept.md",
     "network_note/Socket.md",
-    "container_note/OCI Specification.md",
-    "container_note/Docker architecture.md",
     "container_note/Install Docker.md",
     "network_note",
     "linux_note/pics/Pasted image 20240122170339.png",
     "linux_note/pics/Pasted image 20240122165250.png",
-    "linux_note/Unix-like OS.md",
     "container_note/Pics/Pasted image 20240124210213.png",
     "container_note/Pics/Pasted image 20240124205902.png",
     "container_note/Pics/Pasted image 20240124161314.png",
     "container_note/Pics",
     "linux_note/Linux Note Unorganized.md",
-    "linux_note/functional CLI.md",
-    "linux_note/Linux Process.md",
     "linux_note/build self rootfs.md",
     "linux_note/pics/Pasted image 20240118231137.png",
     "linux_note/CLIs",
