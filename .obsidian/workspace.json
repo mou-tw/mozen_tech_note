@@ -8,115 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f466f26c6d178270",
+            "id": "72326fc8804c828b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/overlay2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ebb22f73669174dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux_note/CGroup (linux control group).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00d8cc66b77ca3b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux_note/linux namespace.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09779a04713cc532",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "quick_note/container 環境python找到路徑.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e866551a358508ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "quick_note/container image 動態隱藏機敏資訊.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c123abfcb9ca575b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux_note/Unshare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8c8bd017a917046",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux_note/Unshare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "274003861420845e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "data type mapping.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c723786c897a82b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "loosing note.md",
+                "file": "Backup references.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "loosing note.md",
+                "file": "Backup references.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "loosing note.md",
+                "file": "Backup references.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "loosing note.md"
+                "file": "Backup references.md"
               }
             }
           }
@@ -244,26 +147,29 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "0c723786c897a82b",
+  "active": "72326fc8804c828b",
   "lastOpenFiles": [
-    "data type mapping.md",
-    "loosing note.md",
+    "().md",
+    "Backup references.md",
     "markdown template.md",
+    "data type mapping.md",
     "linux_note/Unshare.md",
-    "linux_note/Unix-like OS.md",
-    "linux_note/overlay2.md",
-    "linux_note/Linux Process.md",
+    "quick_note/container image 動態隱藏機敏資訊.md",
+    "quick_note/container 環境python找到路徑.md",
     "linux_note/linux namespace.md",
+    "linux_note/CGroup (linux control group).md",
+    "linux_note/overlay2.md",
+    "未命名",
+    "docker secret.md",
+    "loosing note.md",
+    "linux_note/Unix-like OS.md",
+    "linux_note/Linux Process.md",
     "linux_note/functional CLI.md",
     "container_note/Docker architecture.md",
     "container_note/Container Principle.md",
     "container_note/OCI Specification.md",
     "container_note/OCI Image Techniques (skopeo, umoci).md",
-    "linux_note/CGroup (linux control group).md",
     "quick_note/container change local time.md",
-    "docker secret.md",
-    "quick_note/container image 動態隱藏機敏資訊.md",
-    "quick_note/container 環境python找到路徑.md",
     "quick_note",
     "linux_note/CLIs/mount.md",
     "linux_note/chmod.md",
@@ -278,8 +184,6 @@
     "container_note/Pics/Pasted image 20240124205902.png",
     "container_note/Pics/Pasted image 20240124161314.png",
     "container_note/Pics",
-    "linux_note/Linux Note Unorganized.md",
-    "linux_note/build self rootfs.md",
     "linux_note/pics/Pasted image 20240118231137.png",
     "linux_note/CLIs",
     "linux_note/pics/Pasted image 20240115191605.png",
