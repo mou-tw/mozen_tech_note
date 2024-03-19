@@ -5,7 +5,7 @@ MAC VLAN
 
 docker run $(pwd) in windows
 ```
-```
 docker run -v %cd%:/mnt -p 9090:9090 -w /mnt mytest ./scripts/tests.sh
 ```
-```
+
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "loosing note.md",
+                "file": "Backup references.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "loosing note.md",
+                "file": "Backup references.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "loosing note.md",
+                "file": "Backup references.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "loosing note.md"
+                "file": "Backup references.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "72326fc8804c828b",
   "lastOpenFiles": [
+    "loosing note.md",
     "docker secret.md",
     "Backup references.md",
     "().md",
@@ -161,7 +162,6 @@
     "linux_note/CGroup (linux control group).md",
     "linux_note/overlay2.md",
     "未命名",
-    "loosing note.md",
     "linux_note/Unix-like OS.md",
     "linux_note/Linux Process.md",
     "linux_note/functional CLI.md",
