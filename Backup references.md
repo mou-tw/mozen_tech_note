@@ -23,5 +23,5 @@ Non tech backup
 [小lin說/中國房地產](https://www.youtube.com/watch?v=PJOJ1RUdha8)
 
 
-
+[操作系統](https://www.youtube.com/watch?v=MJL3Wj_mKzU&list=PL5d0qARooeQig6QN6wPmt5NRUog88zMxe)
 
