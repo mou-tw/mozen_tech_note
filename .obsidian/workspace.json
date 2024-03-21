@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "loosing note.md",
+                "file": "Backup references.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "loosing note.md",
+                "file": "Backup references.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "loosing note.md",
+                "file": "Backup references.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "loosing note.md"
+                "file": "Backup references.md"
               }
             }
           }
@@ -174,11 +174,11 @@
   },
   "active": "6aa1e85185c5dd86",
   "lastOpenFiles": [
+    "loosing note.md",
     "skopeo umoci.md",
     "dockerfile/odbc18_python.md",
     "Backup references.md",
     "dockerfile",
-    "loosing note.md",
     "docker secret.md",
     "().md",
     "markdown template.md",

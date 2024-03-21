@@ -40,3 +40,5 @@ Non tech backup
 
 
 [TCF canada](https://zhuanlan.zhihu.com/p/586499912)
+
+[clean code]([clean_code.pdf (haugiang.gov.vn)](https://thixalongmy.haugiang.gov.vn/media/1175/clean_code.pdf))
