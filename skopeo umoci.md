@@ -11,3 +11,20 @@ RUN apt-get install net-tools
 ENTRYPOINT ["bash"]
 
 ```
+
+
+
+```
+FROM alpine:latest
+
+RUN apk update
+RUN apk upgrade
+
+#install packages
+RUN apk add curl skopeo umoci nano 
+
+
+ENTRYPOINT ["sh"]
+
+
+```
