@@ -8,6 +8,6 @@
 int a =1;
 int aAddr = &a;
 int aa;
-aa = *aAddr;
+aa = *aAddr; 
 
 ```
