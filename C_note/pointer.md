@@ -60,7 +60,7 @@ int main(){
 	int v[5] = {1,2,3,4,5};
 	int *n // 宣告一個pointer 
 	for (n = v; n! = v+5; n++){
-		print("%d\n", *n) // 此時
+		print("%d\n", *n) // 此時的*n是取值
 	}
 }
 ```
