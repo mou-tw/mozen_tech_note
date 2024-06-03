@@ -131,5 +131,9 @@ int **intPointerPointer = &intVar //未定義行為
 int <> float (有精度喪失的問題)
 陣列可以轉型為pointer
 pointer無法轉為陣列
+void pointer可與其他型別的pointer互轉
+但void pointer無法取值
 
 不合法的隱性轉型
+
+int 轉型double不被保證
