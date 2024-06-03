@@ -114,7 +114,7 @@ int (*q)[3] = &v
 
 pointer之間的轉型
 絕大部分的情形下，指向不同型別之間的pointer無法直接隱性轉型
-除了陣列
+
 ```
 int intVar;
 double doubleVar;
@@ -122,5 +122,14 @@ double doubleVar;
 int *intPointer = &doubleVar; //未定義行為
 double *doublePointer = &inteVar //未定義行為
 int **intPointerPointer = &intVar //未定義行為
+int **intPointerPointer = &intVar //未定義行為
+
 
 ```
+
+合法的隱性轉型
+int <> float (有精度喪失的問題)
+陣列可以轉型為pointer
+pointer無法轉為陣列
+
+不合法的隱性轉型
