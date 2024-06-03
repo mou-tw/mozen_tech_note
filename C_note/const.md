@@ -16,6 +16,5 @@ strC = strA //OK， 陣列會被轉成pointer，再轉成 const pointer
 strC = strB //OK， 陣列會被轉成pointer，再轉成 const pointer
 
 
-
 ```
 
