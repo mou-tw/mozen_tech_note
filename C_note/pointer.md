@@ -11,3 +11,43 @@ int aa;
 aa = *aAddr; 
 
 ```
+
+
+EX:
+簡單雙數排序
+```
+#include <stdio.h>
+
+void order_swap(int *a, int *b);
+
+
+int main(){
+
+    int a, b;
+
+    printf("enter two numbers:");
+
+    scanf("%d%d", &a, &b);
+
+    order_swap(&a, &b);
+
+    printf("%d %d", a, b);
+
+    return 0;
+
+}
+
+void order_swap(int *a, int *b){
+
+    if (*a> *b){
+
+        int tmp = *a;
+
+        *a = *b;
+
+        *b = tmp;
+
+    }
+
+}
+```
