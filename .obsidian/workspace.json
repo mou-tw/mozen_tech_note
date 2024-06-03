@@ -102,9 +102,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "014bc218dd4a1a79",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -233,7 +243,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7721e9a19303b0d7",
+  "active": "014bc218dd4a1a79",
   "lastOpenFiles": [
     "Untitled.md",
     "C_note/pointer.md",
