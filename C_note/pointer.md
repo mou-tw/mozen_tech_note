@@ -137,3 +137,7 @@ void pointer可與其他型別的pointer互轉
 不合法的隱性轉型
 
 int 轉型double不被保證
+
+
+### 空指標 NULL pointer
+透過檢查指標是不是null 或者0可得知是否有指向
