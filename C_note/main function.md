@@ -1,0 +1,5 @@
+main function主要由電腦環境所調用
+因此main function的回傳值主要跟此相關
+例如使用system呼叫另一個exe檔案
+執行了該exe檔案後就可以獲取回傳值
+
