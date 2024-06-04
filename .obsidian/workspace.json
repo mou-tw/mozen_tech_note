@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C_note/傳遞多維陣列.md",
+                "file": "C_note/透過指標傳遞多維陣列.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_note/傳遞多維陣列.md",
+                "file": "C_note/透過指標傳遞多維陣列.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C_note/傳遞多維陣列.md",
+                "file": "C_note/透過指標傳遞多維陣列.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C_note/傳遞多維陣列.md"
+                "file": "C_note/透過指標傳遞多維陣列.md"
               }
             }
           }
@@ -223,7 +223,7 @@
   "active": "e8c8bd017a917046",
   "lastOpenFiles": [
     "C_note/pointer.md",
-    "C_note/傳遞多維陣列.md",
+    "C_note/透過指標傳遞多維陣列.md",
     "C_note/配置&釋放&重新配置記憶體.md",
     "C_note/Variables life time.md",
     "C_note/const.md",
