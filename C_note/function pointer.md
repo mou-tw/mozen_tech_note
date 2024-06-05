@@ -24,6 +24,21 @@ printf會自動轉型為&printf與*取值對消，等同使用printf function
 
 函式之間傳遞函式
 ```
+int cal(int (*)(int,int));
+int add(int,int);
+int multiply(int, int);
+
+int main(){
+	printf("%d\n", cal(add));
+	printf("%d\n", cal(multiply));
+	return 0;
+}
+
+int cal(int (*op)(int,int)){
+	int
+
+}
+
 
 
 ```
