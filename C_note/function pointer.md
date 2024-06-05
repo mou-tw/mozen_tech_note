@@ -35,8 +35,18 @@ int main(){
 }
 
 int cal(int (*op)(int,int)){
-	int
+	int result =1;
+	for (int i=2;i<=5,i++){
+		result = op(result, i)
+	}
+}
 
+int add(int a, intb){
+	return a+b;
+}
+
+int multiply(int a, int b){
+	return a*b
 }
 
 
