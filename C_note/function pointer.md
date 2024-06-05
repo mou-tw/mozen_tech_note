@@ -21,3 +21,9 @@ printf會自動轉向printf的function pointer
 (*printf)("Hello);
 printf會自動轉型為&printf與*取值對消，等同使用printf function
 ```
+
+函式之間傳遞函式
+```
+
+
+```
