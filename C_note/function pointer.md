@@ -12,3 +12,12 @@ return 0;
 }
 
 ```
+
+由於C語言中的function，都是透過pointer呼叫操作的
+如下列都可執行成功
+```
+(&printf)("Hello);
+printf會自動轉向printf的function pointer
+(*printf)("Hello);
+printf會自動轉型為&printf與*取值對消，等同使用printf function
+```
