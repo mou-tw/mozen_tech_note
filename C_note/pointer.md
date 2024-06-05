@@ -12,6 +12,40 @@ aa = *aAddr;
 
 ```
 
+```
+int main(){
+
+    int ary[3][3] = {{1,2,3},{1,2,3},{1,2,3}};
+
+    int *d[3] = {ary[0],ary[1],ary[2]};
+
+    // walk(d,3,3);
+
+    printf("%d ", ary); //6422000
+
+    printf("%d ", *ary); //6422000
+
+    printf("%d ", ary[0]); //6422000
+
+    printf("%d ", ary[1]); //6422012
+
+    printf("%d ", ary[2]); //6422024
+
+    printf("%d ", *&ary);  //6422000
+
+    printf("%d ", **ary);  //1
+
+    printf("%d ", *(ary[1]+4));  //2
+
+    printf("%d ", d);  //6421968
+
+    printf("%d ", *d); //6422000
+
+    return 0;
+
+}
+```
+
 
 EX:
 簡單雙數排序
