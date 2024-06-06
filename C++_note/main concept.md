@@ -9,14 +9,20 @@ C++的source code檔名為.cpp，目標代碼為.obj文件，經鏈接引入libr
 電腦每一次尋址的單位是一個Byte(8bit)，僅能表示256個數字完全不足
 因此C++可根據不同尺寸存/讀不同單位的Byte
 
-| 類型        | 含意   | 最小尺寸 |
-| :-------- | ---- | ---- |
-| bool      | bool | 未定義  |
-| char      | 字符   | 8    |
-| short     | 短整數型 | 16   |
-| int       | 整數型  | 16   |
-| long      | 長整數型 | 32   |
-| long long | 長整數型 | 64   |
+| 類型        | 含意   | 最小尺寸   |
+| :-------- | ---- | ------ |
+| bool      | bool | 未定義    |
+| char      | 字符   | 8 bit  |
+| short     | 短整數型 | 16 bit |
+| int       | 整數型  | 16 bit |
+| long      | 長整數型 | 32 bit |
+| long long | 長整數型 | 64 bit |
+查看實作定義的資料長度
+```
+int a = 1;
+cout << sizeof a <<endl;
+```
+
 
 int
 
