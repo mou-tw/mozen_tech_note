@@ -181,7 +181,23 @@ else{
 	行為statement
 }
 
+// else if
+
+if (條件){
+	行為statement
+}
+else if (條件){
+	行為statement
+}
 
 
+//switch
+swith (表達式){
+	case 值1:
+		statement
+		break
+
+
+}
 
 ```
