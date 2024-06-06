@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "84ccb2b180fd0cc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Leetcode/167.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C_note/function pointer.md",
+                "file": "Leetcode/167.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C_note/function pointer.md",
+                "file": "Leetcode/167.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C_note/function pointer.md"
+                "file": "Leetcode/167.md"
               }
             }
           }
@@ -220,10 +232,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8c8bd017a917046",
+  "active": "84ccb2b180fd0cc4",
   "lastOpenFiles": [
-    "C_note/pointer & string.md",
     "C_note/function pointer.md",
+    "Leetcode/167.md",
+    "Leetcode",
+    "C_note/pointer & string.md",
     "C_note/透過指標傳遞多維陣列.md",
     "C_note/配置&釋放&重新配置記憶體.md",
     "C_note/pointer.md",
@@ -232,7 +246,6 @@
     "C_note/Variables life time.md",
     "C_note/const.md",
     "dockerfile/skopeo umoci.md",
-    "Untitled.md",
     "C_note",
     "linux_note/Unshare.md",
     "loosing note.md",
@@ -249,7 +262,6 @@
     "container_note/Docker architecture.md",
     "container_note/Container Principle.md",
     "container_note/OCI Specification.md",
-    "container_note/OCI Image Techniques (skopeo, umoci).md",
     "quick_note",
     "network_note",
     "linux_note/pics/Pasted image 20240122170339.png",
@@ -265,7 +277,6 @@
     "linux_note/pics/Pasted image 20240115184607.png",
     "linux_note/pics",
     "linux_note",
-    "container_note/pics",
-    "container_note"
+    "container_note/pics"
   ]
 }
