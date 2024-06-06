@@ -11,3 +11,16 @@ object and class
 memory
 library
 error handler
+
+
+
+```
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World" << std::endl;
+}
+```
+
+std是namespace，
