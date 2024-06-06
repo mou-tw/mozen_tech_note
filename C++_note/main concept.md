@@ -6,7 +6,20 @@ C++的source code檔名為.cpp，目標代碼為.obj文件，經鏈接引入libr
 
 數據類型
 流程控制
-函數
+## 函數
+調用其他cpp文件的函數
+```
+include "demo.cpp"
+
+#定義函式
+void demo();
+int main(){
+	demo(); //呼叫demo.cpp中的demo function
+}
+
+```
+
+
 object and class
 memory
 library
