@@ -147,4 +147,10 @@ cout<< (1<2 && ++1) ? "true" : "false" << end
 >> 右移運算符
 ```
 
+## 位邏輯運算符
+[link](https://www.youtube.com/watch?v=9AhjS_Kz42s&list=PLmOn9nNkQxJFgVZJqpMCAOtPlExvpZjpk&index=27)
 
+
+
+## 隱式類型轉換
+會將長度較小的類型轉換為長度較大的類型，避免精度喪失
