@@ -33,8 +33,8 @@ unsigined int a ;
 ```
 
 符點數
-float 佔32bit(4bytes)
-
+float 佔32bits(4bytes)
+double 佔 64 bits(8 bytes)
 
 
 ## 變量與常量
