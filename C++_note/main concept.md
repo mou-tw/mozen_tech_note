@@ -46,9 +46,20 @@ bool btrans = 25; // bool為1，true
 ```
 布爾類型賦值給算術整型
 ```
-short strans = false; // 
+short strans = false; // trans =0
 ```
-
+浮點數賦值給整數類型
+```
+int a = 3.14 // a =3
+```
+整數賦值給浮點數
+```
+flaot a = 3; // a = 3.0
+```
+賦值超出整型範圍
+```
+unsigned short ustrans = 65536 //ustrans =0
+```
 
 ## 變量與常量
 變量可做修改
