@@ -4,7 +4,12 @@ C++是物件導向(OOP)的語言，包含class和object的實踐以及操作方�
 
 C++的source code檔名為.cpp，目標代碼為.obj文件，經鏈接引入library文件後的可執行代碼為.exe
 
-數據類型
+## 數據類型
+int
+
+
+
+
 流程控制
 ## 函數
 調用其他cpp文件的函數
