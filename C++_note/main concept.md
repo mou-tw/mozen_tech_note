@@ -233,3 +233,7 @@ for (int i = 0; i < n; i ++){
 for (int n: {1,2,3,4,5,6}){
 	statement}
 ```
+
+## continue
+和break不同，continue會跳過當次的條件循環
+
