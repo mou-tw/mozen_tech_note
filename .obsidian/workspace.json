@@ -25,19 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux_note/CGroup (linux control group).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00d8cc66b77ca3b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux_note/linux namespace.md",
+                "file": "C++_note/main concept.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -244,10 +232,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da3f942d2ebc0d60",
+  "active": "ebb22f73669174dc",
   "lastOpenFiles": [
-    "C_note/配置&釋放&重新配置記憶體.md",
+    "linux_note/CGroup (linux control group).md",
+    "linux_note/linux namespace.md",
     "C++_note/main concept.md",
+    "C_note/配置&釋放&重新配置記憶體.md",
     "C++_note",
     "C_note/透過指標傳遞多維陣列.md",
     "C_note/const.md",
@@ -271,11 +261,9 @@
     "linux_note/Unix-like OS.md",
     "linux_note/overlay2.md",
     "linux_note/Linux Process.md",
-    "linux_note/linux namespace.md",
     "linux_note/functional CLI.md",
     "container_note/Docker architecture.md",
     "container_note/Container Principle.md",
-    "container_note/OCI Specification.md",
     "quick_note",
     "network_note",
     "linux_note/pics/Pasted image 20240122170339.png",
