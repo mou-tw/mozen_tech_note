@@ -32,8 +32,9 @@ cout << sizeof a <<endl;
 unsigined int a ;
 ```
 
+符點數
+float 佔32bit(4bytes)
 
-int
 
 
 ## 變量與常量
