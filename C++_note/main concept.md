@@ -216,4 +216,20 @@ while(條件){
 }
 
 
+do{
+	statement
+}while (條件)
+
+```
+
+
+## for loop
+```
+for (int i = 0; i < n; i ++){
+	statement
+}
+
+遍歷一個數組
+for (int n: {1,2,3,4,5,6}){
+	statement}
 ```
