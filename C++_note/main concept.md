@@ -37,6 +37,19 @@ float 佔32bits(4bytes)
 double 佔 64 bits(8 bytes)
 
 
+
+## 類型轉換
+
+整數值賦給bool變量
+```
+bool btrans = 25; // bool為1，true
+```
+布爾類型賦值給算術整型
+```
+short strans = false; // 
+```
+
+
 ## 變量與常量
 變量可做修改
 常量不可修改
