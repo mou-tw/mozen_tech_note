@@ -192,12 +192,28 @@ else if (條件){
 
 
 //switch
+如果沒有匹配的case，會執行default，default可不加
 swith (表達式){
 	case 值1:
 		statement
-		break
-
-
+		break;
+	case 值2:
+		statement
+		break;
+	default:
+		statement
+		break;
 }
+
+```
+
+
+## while loop
+
+```
+while(條件){
+	statement
+}
+
 
 ```
