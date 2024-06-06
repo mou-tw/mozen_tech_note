@@ -13,7 +13,7 @@ class Solution:
 
 
 ## Hash Table 法
-### 單一hash table
+### two-pass hash table
 ```
 class Solution:
 
@@ -28,4 +28,9 @@ class Solution:
             if complement  in numMap and numMap[complement] != i:
                 return [i, numMap[complement]]
         return []
+```
+
+### one-pass hash table
+```
+
 ```
