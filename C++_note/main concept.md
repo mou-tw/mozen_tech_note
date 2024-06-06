@@ -141,9 +141,10 @@ cout<< (1<2 && ++1) ? "true" : "false" << end
 ```
 
 ## 移位運算符
-可操作到底層的bit數據
+[可操作到底層的bit數據](https://www.youtube.com/watch?v=-Z61t6n3akQ&list=PLmOn9nNkQxJFgVZJqpMCAOtPlExvpZjpk&index=26)
 ```
 << 左移運算符
 >> 右移運算符
->> 
 ```
+
+
