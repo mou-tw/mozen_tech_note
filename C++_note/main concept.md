@@ -154,3 +154,16 @@ cout<< (1<2 && ++1) ? "true" : "false" << end
 
 ## 隱式類型轉換
 會將長度較小的類型轉換為長度較大的類型，避免精度喪失
+如int和float做計算，會將int轉換為float
+
+## 強制類型轉換
+```
+// C style
+(new type) value
+
+//C++ style
+new type (value)
+
+//C++ 強制類型轉換
+static_cast<new type> (value)
+```
