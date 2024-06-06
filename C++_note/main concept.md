@@ -167,3 +167,21 @@ new type (value)
 //C++ 強制類型轉換
 static_cast<new type> (value)
 ```
+
+
+## 條件語句
+C++提供了If和switch
+```
+//if
+
+if (條件){
+	行為statement
+}
+else{
+	行為statement
+}
+
+
+
+
+```
