@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/167.md",
+                "file": "Leetcode/1 Two sum.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/167.md",
+                "file": "Leetcode/1 Two sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/167.md",
+                "file": "Leetcode/1 Two sum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/167.md"
+                "file": "Leetcode/1 Two sum.md"
               }
             }
           }
@@ -235,7 +235,7 @@
   "active": "84ccb2b180fd0cc4",
   "lastOpenFiles": [
     "C_note/function pointer.md",
-    "Leetcode/167.md",
+    "Leetcode/1 Two sum.md",
     "Leetcode",
     "C_note/pointer & string.md",
     "C_note/透過指標傳遞多維陣列.md",
