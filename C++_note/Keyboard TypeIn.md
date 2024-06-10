@@ -9,7 +9,7 @@ cout << s1 << s2; //會少一個空白鍵
 ```
 
 使用getline function，解決空白鍵的問題，以讀取整行string
-會
+會讀取string，直到遇到換行符
 
 ```
 string s3
