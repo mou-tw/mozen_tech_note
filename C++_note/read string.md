@@ -51,7 +51,7 @@ ofstream 用於輸出寫入文件
 ofstream output('xxx.txt);
 
 //逐字寫入
-string word;
+string word; 
 while (output>> word){
 	cout << word ;
 }
