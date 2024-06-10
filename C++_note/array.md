@@ -27,3 +27,41 @@ cout << ary[1]; // 1
 cout << ary[10] ; // 會訪問到未定義數值，不會報錯
 
 ```
+
+求知array長度
+```
+int ary[] = {1,2,3,4};
+cout << sizeof(ary);
+cout << sizeof(ary[0]);
+cout << sizeof(ary) / sizeof(ary[0]);
+```
+
+遍歷array
+```
+for (int i =0; i <arrySize; i++){
+	cout << ary[i];
+}
+
+for (int num : ary){
+	count << num
+}
+```
+
+
+多維array
+```
+二維數組
+int ary[][]
+三維數組 
+int ary[][][]
+```
+
+
+
+
+
+
+
+
+
+
