@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++_note/read string.md",
+                "file": "C++_note/struct.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++_note/read string.md",
+                "file": "C++_note/struct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++_note/read string.md",
+                "file": "C++_note/struct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++_note/read string.md"
+                "file": "C++_note/struct.md"
               }
             }
           }
@@ -234,10 +234,11 @@
   },
   "active": "ebb22f73669174dc",
   "lastOpenFiles": [
-    "C++_note/string.md",
-    "C++_note/read string.md",
-    "C++_note/main concept.md",
     "C++_note/vector.md",
+    "C++_note/struct.md",
+    "C++_note/read string.md",
+    "C++_note/string.md",
+    "C++_note/main concept.md",
     "C++_note/array.md",
     "markdown template.md",
     "linux_note/CGroup (linux control group).md",
@@ -263,7 +264,6 @@
     "dockerfile",
     "Backup references.md",
     "linux_note/Unix-like OS.md",
-    "linux_note/overlay2.md",
     "quick_note",
     "network_note",
     "linux_note/pics/Pasted image 20240122170339.png",

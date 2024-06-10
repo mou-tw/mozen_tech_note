@@ -50,21 +50,11 @@ ofstream 用於輸出寫入文件
 ```
 ofstream output('xxx.txt);
 
-//逐字寫入
-string word; 
-while (output>> word){
-	cout << word ;
-}
-
-//逐行寫入
-string line;
-while (getline(output, line)){
-	cout << line;
-	
-//逐字符輸出
-string ch;
-while (output.get(ch)){
-	cout << ch;
+//寫入
+    ofstream output("xxx.txt", ofstream::app);
+    string word = "from type in";
+    output << word << endl;
+    output.close();
 }
 ```
 
