@@ -19,3 +19,19 @@ PeopleInfo people = {"Jack', 22, 1};
 PeopleInfo people{"Jack', 22, 1};//等價上方語法
 
 ```
+
+取值&賦值
+```
+PeopleInfo people = {"Jack', 22, 1};
+cout << people.name
+people.name = 'Andy'
+```
+
+結構體數組
+```
+struct PeopleInfo{
+	string name;
+	int age;
+	int sex;
+}
+```
