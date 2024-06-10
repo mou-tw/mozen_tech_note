@@ -44,6 +44,11 @@ for (int i =0; i <arrySize; i++){
 
 for (int num : ary){
 	count << num
+
+
+//多維array
+
+
 }
 ```
 
@@ -52,6 +57,8 @@ for (int num : ary){
 ```
 二維數組
 int ary[][]
+int ary[][] = {1,2,3,4,5,6}
+int ary[][] = {{1,2,3}, {4,5,6}} //等價上方array
 三維數組 
 int ary[][][]
 ```
