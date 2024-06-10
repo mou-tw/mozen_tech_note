@@ -21,6 +21,12 @@ indexing
 string s4("Hello World);
 cout << s4[0];
 S4[0] = "H";
-cout <<s
-
+cout << s4
 ```
+
+size
+```
+cout << s4.size();
+```
+
+
