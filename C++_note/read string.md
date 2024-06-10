@@ -20,7 +20,30 @@ getline(cin, s3)
 
 
 ### 文件IO
+ifstream 用於讀取，if 為input filesystem
+ofstream 用於輸出
 
+```
+ifstream input("xxx.txt");
+
+//逐字讀取
+string word;
+while (input>> word){
+	cout << word ;
+}
+
+//逐行讀取
+string line;
+while (getline(input, line)){
+	cout << line;
+//逐字符讀取
+string ch;
+while (input.get(ch)){
+	cout << ch;
+}
+
+}
+```
 
 
 
