@@ -21,7 +21,6 @@ getline(cin, s3)
 
 ### 文件IO
 ifstream 用於讀取，if 為input filesystem
-ofstream 用於輸出
 
 ```
 ifstream input("xxx.txt");
@@ -36,6 +35,7 @@ while (input>> word){
 string line;
 while (getline(input, line)){
 	cout << line;
+	
 //逐字符讀取
 string ch;
 while (input.get(ch)){
@@ -45,6 +45,26 @@ while (input.get(ch)){
 }
 ```
 
+ofstream 用於輸出寫入文件
+```
+ofstream output('xxx.txt);
 
+//逐字寫入
+string word;
+while (output>> word){
+	cout << word ;
+}
+
+//逐行寫入
+string line;
+while (getline(output, line)){
+	cout << line;
+	
+//逐字符輸出
+string ch;
+while (output.get(ch)){
+	cout << ch;
+}
+```
 
 
