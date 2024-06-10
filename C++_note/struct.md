@@ -5,6 +5,17 @@ declare
 struct <name>
 {
 	類型1 數據對象1;
-	
+	類型2 數據對象2;
 }
+
+ex:
+struct PeopleInfo{
+	string name;
+	int age;
+	int sex;
+}
+
+PeopleInfo people = {"Jack', 22, 1};
+PeopleInfo people{"Jack', 22, 1};//等價上方語法
+
 ```
