@@ -29,4 +29,21 @@ size
 cout << s4.size();
 ```
 
+string 相加
+string長度不定，可透過相加的方式做相加
+```
+string s1 = "Hello ";
+string s2 = "World";
+string s3 = s1 + s2;
+```
 
+
+C style string
+
+需要有\0結束符
+```
+char c1[5] = {"H", "E", "L", "L", "O"};    //not sting
+char c2[6] = {"H", "E", "L", "L", "O", "\0}; //string
+
+
+```
