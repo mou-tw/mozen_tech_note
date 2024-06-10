@@ -35,6 +35,7 @@ while (input>> word){
 string line;
 while (getline(input, line)){
 	cout << line;
+	}
 	
 //逐字符讀取
 string ch;
