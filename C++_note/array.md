@@ -36,6 +36,19 @@ cout << sizeof(ary[0]);
 cout << sizeof(ary) / sizeof(ary[0]);
 ```
 
+
+多維array
+```
+二維數組
+int ary[][]
+int ary[][] = {1,2,3,4,5,6}
+int ary[][] = {{1,2,3}, {4,5,6}} //等價上方array
+三維數組 
+int ary[][][]
+```
+
+
+
 遍歷array
 ```
 for (int i =0; i <arrySize; i++){
@@ -47,20 +60,15 @@ for (int num : ary){
 
 
 //多維array
+int row = size(ary) / sizeof(ary[0])
+int col = size(ary) / sizeof(ary[0][0])
 
-
+for (int i =0; i < row ; i++){
+	for(int j =0; j < col; j++){
+		cout << ary[i][j];
+	}
 }
-```
-
-
-多維array
-```
-二維數組
-int ary[][]
-int ary[][] = {1,2,3,4,5,6}
-int ary[][] = {{1,2,3}, {4,5,6}} //等價上方array
-三維數組 
-int ary[][][]
+}
 ```
 
 
