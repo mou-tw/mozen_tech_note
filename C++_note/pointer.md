@@ -1,0 +1,3 @@
+memory的最小尋址單位是byte，所有的數據就是保存在memory中的一連串bytes中，pointer就是指向其中一memory的某一個位置，就可以找到具體的數據。
+
+pointer本身也是一種數據類型，只是保存的是其他對象的memory地址。
