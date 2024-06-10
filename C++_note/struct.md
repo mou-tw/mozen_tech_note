@@ -29,9 +29,18 @@ people.name = 'Andy'
 
 結構體數組
 ```
-struct PeopleInfo{
-	string name;
-	int age;
-	int sex;
+PeopleInfo p[3] = {
+	{"Jack', 22, 1},
+	{"Andy', 18, 1},
+	{"Jydy', 35, 0}
+}
+cout << p[0].name // Jack
+```
+
+遍歷
+```
+for (PeopleInfo peo: p){
+	cout << peo
 }
 ```
+
