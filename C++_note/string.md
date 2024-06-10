@@ -1,0 +1,1 @@
+string和vector類似，針對char的一個dj/

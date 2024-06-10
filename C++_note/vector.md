@@ -48,6 +48,10 @@ for (int num : v5){
 ```
 vector<char> v2 = {'a','b', 'c'};
 
-v2.push()
+v2.push_back('d'); // 最後新增
 
 ```
+
+對比array
+- array長度固定，沒有長度讀取保護，性能好，速度快
+- vector是array的高級抽象，沒有長度限制，有長度讀取保護，缺點比較慢
