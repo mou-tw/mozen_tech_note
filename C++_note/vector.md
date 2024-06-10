@@ -16,9 +16,38 @@ vector<char> v2 = {'a','b', 'c'};
 vector<char> v2{'a','b', 'c'}; //同上
 
 //直接初始化
-vector<short> v3(5); 有五個長度的vector，內容為0
-vector<short> v3(5, 100);
+vector<short> v3(5); 有五個長度的vector，個別值為0
+vector<short> v3(5, 100); 有五個長度的vector，個別值為100
+```
+
+indexing vector
+```
+vector<char> v2 = {'a','b', 'c'};
+cout << v2[0] //OK
+cout << v2[5] //error
+```
+
+iterating vector
+```
+//獲取vector siz
+
+vector<char> v2 = {'a','b', 'c'};
+cout<< v2.size();
+
+for (int i =0; i < v2.size(); i ++){
+	cout << v2[i];
+}
+
+for (int num : v5){
+	cout << num;
+}
 ```
 
 
+新增vector元素
+```
+vector<char> v2 = {'a','b', 'c'};
 
+v2.push()
+
+```
