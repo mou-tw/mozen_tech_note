@@ -32,7 +32,7 @@ const int& cref4 = d; //正確，double會被轉型為int
 ```
 
 
-reference vs pointer const
+reference vs pointer const  
 ```
 int a = 10;
 int& ref = a;
