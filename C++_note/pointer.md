@@ -80,5 +80,11 @@ int i = 1234 ;
 int* const cpc = &i;
 cpc = &a; //失敗
 *cpc = 12345; // i被改成12345
-
 ```
+
+3. 混合使用
+   希望定義一個指向const的pointer，且這個pointer也不能修改
+```
+const int* const ccpc = &c1;
+```
+
