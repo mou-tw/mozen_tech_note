@@ -71,7 +71,8 @@ for (int i =0; i < row ; i++){
 }
 ```
 
-
+notes:
+- array不能夠直接複製
 
 
 

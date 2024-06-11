@@ -88,3 +88,16 @@ cpc = &a; //失敗
 const int* const ccpc = &c1;
 ```
 
+
+array pointer
+```
+int arr[] = {1,2,3,4};
+cout << arr // arr的address
+cout << &arr[0]  //arr[0] 以及arr的address
+cout << &arr[1]  //arr[1]的address
+
+int* pia = arr;
+cout << *pia ;// 1
+*pia = 100 ;//arr的第一個值被改成100
+```
+
