@@ -101,3 +101,12 @@ cout << *pia ;// 1
 *pia = 100 ;//arr的第一個值被改成100
 ```
 
+pointer 計算
+pointer的計算，會根據儲存類型，增減相對應的地址，例如存放int的array，pointer +1 ，會移動四個bytes的address
+```
+int arr[] = {1,2,3,4};
+int* pia = arr;
+cout << pia; //arr[0]或者arr的address
+cout << (pia+1); //arr[1]的address 
+*(pia+1) = 100 //arr[1] 被修改為100
+```
