@@ -74,4 +74,11 @@ pc = &c2 //成功將pc指向到c2
 
 ```
 2. 指針常量
-   代表pointer本身是一個常量
+   代表pointer本身是一個常量，保存的address不能修改
+```
+int i = 1234 ;
+int* const cpc = &i;
+cpc = &a; //失敗
+*cpc = 12345; // i被改成12345
+
+```
