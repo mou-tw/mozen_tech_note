@@ -117,13 +117,31 @@ pointer array & array pointer
 - array pointer - 指向一個array的pointer
 ```
 int arr[] = {1,2,3,4,5};
-int* pa[5] ; //pointer array
-int(* ap)[5] ; array pointer
+int* pa[5];
+int(* ap)[5];
 
-pa[0] = &arr;
-pa[1] = arr +1;
+pa[0] = arr;
+pa[1] = arr + 1;
+pa[2] = arr + 2;
+
+cout << pa[0] << endl; // 0x61fe00
+cout << pa[1] << endl; // 0x61fe04
+cout << pa[2] << endl; // 0x61fe08
+cout << *pa[2] << endl; //3
+cout << &arr << endl;  // 0x61fe00
+cout << arr << endl;  // 0x61fe00
+
+ap = &arr;
+cout << ap << endl;  // 0x61fe00
+cout << *ap << endl; // 0x61fe00
+cout << **ap << endl; // 1
+
+*(*ap + 1 ) = 100;
+for (int n: arr){
+	cout << n << " ";
+} // 1 100 3 4 5
 
 ap = arr;// 無法賦值，因為arr是變量名，而ap本身是一個指向一個有五個元素的array地址
-ap = &arr;
+
 
 ```
