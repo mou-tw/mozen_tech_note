@@ -11,3 +11,11 @@ cout << sizeof(p2) //查看p2的memory的佔用長度
 //p1 和p2大小相同
 
 ```
+
+獲取address給pointer賦值
+```
+int a = 10;
+int* p1;
+p1 = &a;
+
+```
