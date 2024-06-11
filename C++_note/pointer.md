@@ -25,5 +25,21 @@ p1 = &b  //p1重指向為b
 無效指針(野指針)
 定義指針後沒有初始化而且賦值，因為指針本身也是一個變量，預設會指向到一個memory地址，如果直接取值，會不知道取到甚麼值，即無效指針。
 
-空指針
-因避免無效指針的狀況，可透過定義一個空指針
+null pointer
+因避免無效指針的狀況，可透過定義一個空指針來解決之
+```
+int np = nullptr;
+np = NULL;
+np = 0;
+```
+
+void pointer
+和null pointer的差別是，null pointer一開始有定義類型，而void pointer代表可指向任意數據對象
+```
+int i = 10;
+string  s = "Hello";
+
+void* vp = &i;
+vp = &ch;
+vp = $s;
+```
