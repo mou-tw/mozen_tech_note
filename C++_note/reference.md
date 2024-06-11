@@ -43,4 +43,8 @@ cout << a; // a= 20
 *p = 30;
 cout << a; //a =30
 
+//綁定pointer的refernece
+int* ptr = &a;
+int*& pref = ptr //
+
 ```
