@@ -110,3 +110,13 @@ cout << pia; //arr[0]或者arr的address
 cout << (pia+1); //arr[1]的address 
 *(pia+1) = 100 //arr[1] 被修改為100
 ```
+
+
+pointer array & array pointer
+- pointer array - 一個array中全部都是相同類型的pointer
+- array pointer - 指向一個array的pointer
+```
+int arr[] = {1,2,3,4};
+int* pa[5] ; //pointer array
+int(* ap)[5] ; array pointer
+```
