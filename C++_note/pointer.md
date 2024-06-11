@@ -34,12 +34,27 @@ np = 0;
 ```
 
 void pointer
-和null pointer的差別是，null pointer一開始有定義類型，而void pointer代表可指向任意數據對象
+和null pointer的差別是，null pointer一開始有定義類型，而void pointer代表可指向任意數據對象，也因為此void pointer只能存儲地址，不能取值(因為不知道具體要取多少bytes)
 ```
 int i = 10;
 string  s = "Hello";
 
 void* vp = &i;
-vp = &ch;
-vp = $s;
+vp = &i;
+vp = &s;
+```
+
+
+指向指針的指針(二級指針)
+因為pointer自身也是一個數據對象，同樣也具備address，所以可以讓一個pointer保存之
+```
+int i = 1;
+int* pi = &i;
+int** ppi = &pi;
+
+cout << i ;
+cout << pi ;
+cout << ppi;
+cout << *pi; ㄥ
+cout << *ppi; // same as pi
 ```
