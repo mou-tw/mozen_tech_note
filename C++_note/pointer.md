@@ -116,7 +116,7 @@ pointer array & array pointer
 - pointer array - 一個array中全部都是相同類型的pointer
 - array pointer - 指向一個array的pointer
 ```
-int arr[] = {1,2,3,4};
+int arr[] = {1,2,3,4,5};
 int* pa[5] ; //pointer array
 int(* ap)[5] ; array pointer
 ```
