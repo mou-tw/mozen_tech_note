@@ -14,8 +14,10 @@ cout << sizeof(p2) //查看p2的memory的佔用長度
 
 獲取address給pointer賦值
 ```
-int a = 10;
+int a = 10, b=20;
 int* p1;
 p1 = &a;
-
+cout << *p1; //印出p1對應address代表的值
+*p1 = 11; 修改值
+p1 = &b  //p1重指向為b
 ```
