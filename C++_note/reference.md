@@ -1,4 +1,5 @@
 C++可以為數據對象另外取一個名子，本質上並不是數據對象，不會占用memory，且宣告同時必須初始化，而宣告對象必須是一個變量。
+行為上，refernence 和pointer非常相似，只是pointer的對象能夠修改且具有彈性，refernence是專一指向一個變量。
 ```
 int a = 10;
 int& ref = a; //ref是a的reference
@@ -21,5 +22,11 @@ const int& cref = c;
 cref = 10 //錯誤，const不得修改
 
 
-int 
+int i = 10;
+const int& cref2 = i; //正確
+const int& cref3 = 10; //正確
+double d = 3.14;
+const int& cref4 = d; //正確，double會被轉型為int
+
+
 ```
