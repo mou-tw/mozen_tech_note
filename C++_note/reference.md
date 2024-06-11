@@ -30,3 +30,17 @@ const int& cref4 = d; //正確，double會被轉型為int
 
 
 ```
+
+
+reference vs pointer const
+```
+int a = 10;
+int& ref = a;
+int* const p = &a;
+
+ref = 20;
+cout << a; // a= 20
+*p = 30;
+cout << a; //a =30
+
+```
