@@ -148,6 +148,7 @@ ap = arr;// 無法賦值，因為arr是變量名，而ap本身是一個指向一
 
 ## Pointer應用案例
 reverse array
+不使用pointer
 ```
 #include<iostream>
 
@@ -157,6 +158,24 @@ int main(){
 	const int n =4
 	int orgAry[n] = {1,2,3,4};
 	int newAry[n];
+	for (int i=0; i <n; i++){
+		newAry[n-i-1] = orgAry[i]
+	}
+	for (int num: newAry){
+		cout << num << "\t";
+	}
+}
+
+```
+
+double pointer
+```
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	int hea
 	for (int i=0; i <n; i++){
 		newAry[n-i-1] = orgAry[i]
 	}
