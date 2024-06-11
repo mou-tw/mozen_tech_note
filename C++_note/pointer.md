@@ -175,11 +175,18 @@ double pointer
 using namespace std;
 
 int main(){
-	int hea
-	for (int i=0; i <n; i++){
-		newAry[n-i-1] = orgAry[i]
+	const int n =4;
+	int orgAry[n] = {1,2,3,4};
+	int head = 0, tail = n-1;
+	while (head < tail){
+		int temp = orgAry[head];
+		orgAry[head] = orgAry[tail];
+		orgAry[tail] = temp;
+		++head;
+		--tail;
 	}
-	for (int num: newAry){
+
+	for (int num: orgAry){
 		cout << num << "\t";
 	}
 }
