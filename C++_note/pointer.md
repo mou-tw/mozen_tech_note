@@ -64,7 +64,14 @@ cout << **ppi; // 123
 pointer with const
 pointer和const的混用，有兩種狀況
 1. 指向常量的指針
+   即指針指向一個常量，不是常量無法賦值。
 ```
 const int c1 = 1234, c2 =2345;
-int* pc = &c1 //失敗
+int* pc = &c1 //失敗，因為此時的pc並不是const
+const int* pc = &c1;
+*pc  = 15 //錯誤
+pc = &c2 //成功將pc指向到c2
+
 ```
+2. 指針常量
+   代表pointer本身是一個常量
