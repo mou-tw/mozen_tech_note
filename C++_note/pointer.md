@@ -61,7 +61,7 @@ cout << **ppi; // 123
 ```
 
 
-pointer with const
+## pointer with const
 pointer和const的混用，有兩種狀況
 1. 指向常量的指針
    即指針指向一個常量，不是常量無法賦值。
@@ -89,7 +89,7 @@ const int* const ccpc = &c1;
 ```
 
 
-array pointer
+## array pointer
 ```
 int arr[] = {1,2,3,4};
 cout << arr // arr的address
@@ -112,7 +112,7 @@ cout << (pia+1); //arr[1]的address
 ```
 
 
-pointer array & array pointer
+## pointer array & array pointer
 - pointer array - 一個array中全部都是相同類型的pointer
 - array pointer - 指向一個array的pointer
 ```
