@@ -48,13 +48,23 @@ vp = &s;
 指向指針的指針(二級指針)
 因為pointer自身也是一個數據對象，同樣也具備address，所以可以讓一個pointer保存之
 ```
-int i = 1;
+int i = 123;
 int* pi = &i;
 int** ppi = &pi;
 
-cout << i ;
-cout << pi ;
-cout << ppi;
-cout << *pi; ㄥ
-cout << *ppi; // same as pi
+cout << i ; //123
+cout << pi ; //i的address
+cout << ppi; // pi的address
+cout << *pi; //123
+cout << *ppi; // i的address
+cout << **ppi; // 123
+```
+
+
+pointer with const
+pointer和const的混用，有兩種狀況
+1. 指向常量的指針
+```
+const int c1 = 1234, c2 =2345;
+int* pc = &c1 //失敗
 ```
