@@ -120,7 +120,8 @@ int arr[] = {1,2,3,4,5};
 int* pa[5] ; //pointer array
 int(* ap)[5] ; array pointer
 
-
+pa[0] = &arr;
+pa[1] = arr +1;
 
 ap = arr;// 無法賦值，因為arr是變量名，而ap本身是一個指向一個有五個元素的array地址
 ap = &arr;
