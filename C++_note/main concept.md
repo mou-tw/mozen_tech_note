@@ -268,5 +268,11 @@ int main(){
 ```
 #pragma once
 //需聲明pragma once，代表此文件只會編譯一次
-
 ```
+
+使用.h文件
+```
+#include"xxx.h"
+```
+
+ 
