@@ -195,4 +195,12 @@ int main(){
 
 
 ## function return pointer
-在需要return array的場景下，因為array無法複製，因此需要改為return pointer
+在需要return array的場景下，因為array無法複製，因此需要改為return pointer，其中比較簡易的方式為使用typedef
+```
+
+typedef int aryT[5]; 
+//aryT是一個自定義的類型別名，表示長度為5的int array
+
+
+
+```
