@@ -92,10 +92,16 @@ void enuAry(const int* ptrAry ){
 //因為無法針對pointer計算得知array長度，仍造成一定困難
 //解法1，另外傳入array的長度
 
+void enuAry(const int* ptrAry , int len){
+	......
+}
 
-
-
-
+//解法2，傳入reference
+void enuAry(const int(& arr)){
+	for (int n : arr){
+		cout << n;
+	}
+}
 
 ```
 
