@@ -253,7 +253,7 @@ void print(){
         cout << a << endl;
         ++a;
     }
-}
+} 
 
 int main(){
     print();
