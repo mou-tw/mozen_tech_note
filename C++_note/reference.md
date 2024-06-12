@@ -66,3 +66,15 @@ int main(){
 
 使用reference的好處是在傳參的時候，並不會另外複製一份，因為效率會更高。
 另外如果針對傳入變量不常更改，盡量使用const
+
+
+
+function return reference
+一般function 的return value ，同樣也會開闢一個臨時的記憶體空間，儲存值，如果不希望另外開闢空間，可使用return reference的方式
+
+
+```
+const string $ re
+
+
+```
