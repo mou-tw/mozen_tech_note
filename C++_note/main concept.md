@@ -241,6 +241,23 @@ for (int n: {1,2,3,4,5,6}){
 ## static object
 希望可以延長一個局部變量的生命週期，使其在作用域外依然保留，可在變量前天加static
 ```
+#include<iostream>
 
+using namespace std;
+
+void print(){
+    // int a = 0;
+    static int a = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        cout << a << endl;
+        ++a;
+    }
+}
+
+int main(){
+    print();
+    print();
+}
 
 ```
