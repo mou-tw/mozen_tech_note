@@ -76,7 +76,21 @@ notes:
 
 array傳參
 由於array無法複製，必須要改傳遞array的pointer
+```
+//舉例遍歷array的function
+//兩者皆可
+//加const是不希望array不被修改
 
+void enuAry(const int arr[]){
+
+}
+
+void enuAry(const int* ptrAry ){
+	
+}
+
+
+```
 
 
 
