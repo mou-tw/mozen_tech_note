@@ -237,3 +237,10 @@ for (int n: {1,2,3,4,5,6}){
 ## continue
 和break不同，continue會跳過當次的條件循環
 
+
+## static object
+希望可以延長一個局部變量的生命週期，使其在作用域外依然保留，可在變量前天加static
+```
+
+
+```
