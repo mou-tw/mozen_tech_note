@@ -117,8 +117,8 @@ cout << (pia+1); //arr[1]的address
 - array pointer - 指向一個array的pointer
 ```
 int arr[] = {1,2,3,4,5};
-int* pa[5];
-int(* ap)[5];
+int* pa[5]; //pointer array
+int(* ap)[5]; // array pointer
 
 pa[0] = arr;
 pa[1] = arr + 1;
@@ -192,3 +192,7 @@ int main(){
 }
 
 ```
+
+
+## function return pointer
+在需要return array的場景下，因為array無法複製，因此需要改為return pointer
