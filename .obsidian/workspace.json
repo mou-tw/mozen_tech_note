@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++_note/main concept.md",
+                "file": "C++_note/reference.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++_note/main concept.md",
+                "file": "C++_note/reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++_note/main concept.md",
+                "file": "C++_note/reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++_note/main concept.md"
+                "file": "C++_note/reference.md"
               }
             }
           }
@@ -234,6 +234,7 @@
   },
   "active": "ebb22f73669174dc",
   "lastOpenFiles": [
+    "C++_note/main concept.md",
     "C++_note/pointer.md",
     "C++_note/reference.md",
     "C++_note/array.md",
@@ -242,7 +243,6 @@
     "C++_note/vector.md",
     "C++_note/read string.md",
     "C++_note/string.md",
-    "C++_note/main concept.md",
     "markdown template.md",
     "linux_note/CGroup (linux control group).md",
     "linux_note/linux namespace.md",

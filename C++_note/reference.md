@@ -48,3 +48,18 @@ int* ptr = &a;
 int*& pref = ptr //
 
 ```
+
+
+引用reference 進行傳參
+如果想要利用function進行原始值修改，除了透過傳遞pointer，也可以傳遞reference，避免數據copy。
+```
+
+void increase(int& x){
+	++x;
+}
+
+int main(){
+	int n=0;
+	increase(n);
+}
+```
