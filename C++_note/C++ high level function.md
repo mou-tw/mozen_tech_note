@@ -13,5 +13,16 @@ int demo(int demo = 111){
 
 ```
 
-## function reload 
-C++在同一個作用
+## function overload 
+C++在同一個作用域下，同一個函數名只要型參列表不同，就可以重複定義多次，在調用時根據傳入的類型，決定調用的函數。
+```
+void printAry(const int* ary, int size){
+	...
+}
+
+
+void printAry(const int(&ary)[6]){
+	...
+}
+
+```
