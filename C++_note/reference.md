@@ -74,7 +74,9 @@ function return reference
 
 
 ```
-const string $ re
+const string $ returnRef(const string& str1){
+	return str1
+}
 
 
 ```
