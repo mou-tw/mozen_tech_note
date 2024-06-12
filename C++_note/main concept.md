@@ -261,3 +261,12 @@ int main(){
 }
 
 ```
+
+
+.h文件聲明
+
+```
+#pragma once
+//需聲明pragma once，代表此文件只會編譯一次
+
+```
