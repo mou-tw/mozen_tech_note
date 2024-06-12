@@ -89,6 +89,13 @@ void enuAry(const int* ptrAry ){
 	
 }
 
+//因為無法針對pointer計算得知array長度，仍造成一定困難
+//解法1，另外傳入array的長度
+
+
+
+
+
 
 ```
 
