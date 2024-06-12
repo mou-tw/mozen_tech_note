@@ -74,7 +74,8 @@ for (int i =0; i < row ; i++){
 notes:
 - array不能夠直接複製
 
-
+array傳參
+由於array無法複製，必須要改傳遞array的pointer
 
 
 
