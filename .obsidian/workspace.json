@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++_note/pointer.md",
+                "file": "C++_note/typedef.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++_note/pointer.md",
+                "file": "C++_note/typedef.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++_note/pointer.md",
+                "file": "C++_note/typedef.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++_note/pointer.md"
+                "file": "C++_note/typedef.md"
               }
             }
           }
@@ -234,8 +234,9 @@
   },
   "active": "ebb22f73669174dc",
   "lastOpenFiles": [
-    "C++_note/C++ high level function.md",
     "C++_note/pointer.md",
+    "C++_note/typedef.md",
+    "C++_note/C++ high level function.md",
     "C++_note/recursive.md",
     "C++_note/reference.md",
     "C++_note/main concept.md",
@@ -262,7 +263,6 @@
     "C_note/pointer.md",
     "dockerfile/skopeo umoci.md",
     "C_note",
-    "linux_note/Unshare.md",
     "dockerfile",
     "quick_note",
     "network_note",
