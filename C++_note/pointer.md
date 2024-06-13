@@ -211,3 +211,7 @@ typedef int aryT[5];
 auto func3(int x) -> int(*) [5];
 
 ```
+
+
+## function pointer
+聲明指向function 的pointer，需在原先函數名稱的位置上
