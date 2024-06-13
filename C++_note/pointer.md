@@ -228,6 +228,10 @@ string demo1(string s, int i1, int i2){
 
 string(*fp) (string, int, int) = nullptr;
 fp = &demo1;
+fp = demo1; //可不加取址符
+(*fp)("a", 1, 1) //等同調用function
+fp("a", 1, 1) //也可調用function
 
 
 ```
+
