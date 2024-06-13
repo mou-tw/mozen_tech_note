@@ -246,6 +246,8 @@ function 同樣不能作為值回傳，僅能return pointer
 ```
 typedef decltype(funcname) *typefunc2
 
+//傳統定義方式
+typefunc2 func3(int);
 
 //使用尾置方式定義
 auto func3(int) -> typefunc2
