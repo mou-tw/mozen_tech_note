@@ -72,6 +72,8 @@ const int* pc = &c1;
 *pc  = 15 //錯誤
 pc = &c2 //成功將pc指向到c2
 
+void func(int* const pc){}
+
 ```
 2. 指針常量
    代表pointer本身是一個常量，保存的address不能修改
