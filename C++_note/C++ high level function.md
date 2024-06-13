@@ -29,7 +29,14 @@ void printAry(const int(&ary)[6]){
 
 const 在function型參定義位置不同，修飾的意思也不同
 ```
-//修飾型
+//修飾型參本身
 void func(int* const pc){} 
+
+//修飾型參所指向的參數，或者說預計傳入的參數
+//等同間接限制了傳入參數是否為常量
+void func2(const int* p)
+//func2 與 func3可形成function overload
+void func3(int* p)
+
 
 ```
