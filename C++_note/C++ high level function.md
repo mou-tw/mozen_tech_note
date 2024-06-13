@@ -26,3 +26,10 @@ void printAry(const int(&ary)[6]){
 }
 
 ```
+
+const 在function型參定義位置不同，修飾的意思也不同
+```
+//修飾型
+void func(int* const pc){} 
+
+```
