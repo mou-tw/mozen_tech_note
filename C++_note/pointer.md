@@ -236,5 +236,17 @@ fp("a", 1, 1) //也可調用function
 ```
 有了function pointer，就能夠解決function本身不能夠做為型參傳入的問題。
 ```
+typedef decltype(funcname) *typefunc2
 
+void demofunc(const string&, typefunc2)
+```
+
+## return function pointer
+function 同樣不能作為值回傳，僅能return pointer
+```
+typedef decltype(funcname) *typefunc2
+
+
+//使用尾置方式定義
+auto func3(int) -> typefunc2
 ```
