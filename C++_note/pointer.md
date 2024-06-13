@@ -222,5 +222,12 @@ string(* fp)       (string, int, int)
 
 ex: 
 
+string demo1(string s, int i1, int i2){
+	.......
+}
+
+string(*fp) (string, int, int) = nullptr;
+fp = &demo1;
+
 
 ```
