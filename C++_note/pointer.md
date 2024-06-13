@@ -234,4 +234,7 @@ fp("a", 1, 1) //也可調用function
 
 
 ```
+有了function pointer，就能夠解決function本身不能夠做為型參傳入的問題。
+```
 
+```
