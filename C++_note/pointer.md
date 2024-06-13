@@ -214,4 +214,13 @@ auto func3(int x) -> int(*) [5];
 
 
 ## function pointer
-聲明指向function 的pointer，需在原先函數名稱的位置上
+聲明指向function 的pointer，需在原先函數名稱的位置上填上*
+且不需要聲明型參名稱。
+```
+string(* fp)       (string, int, int)
+      pointer name  (型參列表)
+
+ex: 
+
+
+```
