@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/27. Remove Element.md",
+                "file": "Leetcode/217. Contains Duplicate.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/27. Remove Element.md",
+                "file": "Leetcode/217. Contains Duplicate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/27. Remove Element.md",
+                "file": "Leetcode/217. Contains Duplicate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/27. Remove Element.md"
+                "file": "Leetcode/217. Contains Duplicate.md"
               }
             }
           }
@@ -234,8 +234,9 @@
   },
   "active": "da3f942d2ebc0d60",
   "lastOpenFiles": [
-    "Leetcode/53. Maximum Subarray.md",
     "Leetcode/27. Remove Element.md",
+    "Leetcode/217. Contains Duplicate.md",
+    "Leetcode/53. Maximum Subarray.md",
     "Leetcode/9. Palindrome Number.md",
     "Leetcode/1 Two sum.md",
     "C++_note/Application Scenario/大整數相加.md",
@@ -261,7 +262,6 @@
     "C_note/const.md",
     "C_note/function pointer.md",
     "C_note/random number.md",
-    "C_note/Variables life time.md",
     "Leetcode",
     "C_note",
     "dockerfile",
