@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/217. Contains Duplicate.md",
+                "file": "Leetcode/2. Add Two Numbers.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/217. Contains Duplicate.md",
+                "file": "Leetcode/2. Add Two Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/217. Contains Duplicate.md",
+                "file": "Leetcode/2. Add Two Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/217. Contains Duplicate.md"
+                "file": "Leetcode/2. Add Two Numbers.md"
               }
             }
           }
@@ -234,8 +234,9 @@
   },
   "active": "da3f942d2ebc0d60",
   "lastOpenFiles": [
-    "Leetcode/27. Remove Element.md",
     "Leetcode/217. Contains Duplicate.md",
+    "Leetcode/2. Add Two Numbers.md",
+    "Leetcode/27. Remove Element.md",
     "Leetcode/53. Maximum Subarray.md",
     "Leetcode/9. Palindrome Number.md",
     "Leetcode/1 Two sum.md",
@@ -261,7 +262,6 @@
     "C_note/透過指標傳遞多維陣列.md",
     "C_note/const.md",
     "C_note/function pointer.md",
-    "C_note/random number.md",
     "Leetcode",
     "C_note",
     "dockerfile",
