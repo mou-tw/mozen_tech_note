@@ -1,0 +1,1 @@
+https://www.c-sharpcorner.com/article/deleting-duplicate-records-using-cte/
