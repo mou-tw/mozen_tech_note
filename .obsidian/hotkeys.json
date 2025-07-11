@@ -1,1 +1,11 @@
-{}
+{
+  "obsidian-git:push": [
+    {
+      "modifiers": [
+        "Meta",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ]
+}
