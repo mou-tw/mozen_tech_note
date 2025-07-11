@@ -25,4 +25,3 @@
 | ------------------------------------------------- | ------------------------------------------------------------------- |
 | ✅ Rowstore Table + Nonclustered Columnstore Index | OLTP 作業（更新/交易）可用 rowstore，OLAP 查詢可用 columnstore。                    |
 | ✅ Columnstore Index + Nonclustered Rowstore Index | 允許在 columnstore 上建立 rowstore index（如 primary key 限制或 lookup index）。 |
-.
