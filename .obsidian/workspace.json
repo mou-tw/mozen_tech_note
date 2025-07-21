@@ -67,14 +67,18 @@
             "id": "af0a878043611f9d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "n8n/n8n install.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "n8n install"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -147,6 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "n8n/n8n install.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for n8n install"
             }
           },
           {
@@ -165,11 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "n8n/n8n install.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from n8n install"
             }
           },
           {
@@ -193,12 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "n8n/n8n install.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of n8n install"
             }
           }
         ],
@@ -219,8 +226,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09779a04713cc532",
+  "active": "af0a878043611f9d",
   "lastOpenFiles": [
+    "n8n/n8n install.md",
+    "n8n",
+    "microsoft_interview_sql_database/Azure SQL Database & Fabric SQL.md",
+    "microsoft_interview_index/column store.md",
     "microsoft_interview_index/Nonclustered index design guidelines.md",
     "microsoft_interview_index/Clustered index design guidelines.md",
     "microsoft_interview_sql_database/Azure SQL database connectively architecture.md",
@@ -228,7 +239,6 @@
     "microsoft_interview_sql_database/Azure SQL Managed Instance.md",
     "microsoft_interview_index/Memory-optimized nonclustered index design guidelines.md",
     "microsoft_interview_index/hash index.md",
-    "microsoft_interview_index/column store.md",
     "microsoft_interview_index/Filtered Index.md",
     "microsoft_interview_index/unique index.md",
     "microsoft_interview_index/index seek & scan.md",
@@ -242,12 +252,10 @@
     "microsoft_interview_index/data storage format.md",
     "microsoft_interview_index",
     "microsoft_interview_sql_database/logical server.md",
-    "microsoft_interview_sql_database/Azure SQL Database & Fabric SQL.md",
     "microsoft_interview_sql_database/PAAS & SAAS 交易型資料庫.md",
     "microsoft_interview_sql_database/Azure SQL Managed Instance Connectivity architecture.md",
     "microsoft_interview_sql_database/deadlock and blocking.md",
     "microsoft_interview_sql_database/Redirect 和Proxy 模式.md",
-    "microsoft_interview_sql_database/private link and endpoint.md",
     "microsoft_interview_sql_database/pic/Pasted image 20250624165611.png",
     "microsoft_interview_sql_database/pic",
     "linux_note/pics/Pasted image 20240115191605.png",
@@ -258,7 +266,6 @@
     "Leetcode",
     "C_note",
     "dockerfile",
-    "quick_note",
     "linux_note/pics/Pasted image 20240122170339.png",
     "linux_note/pics/Pasted image 20240122165250.png",
     "container_note/Pics/Pasted image 20240124210213.png",
